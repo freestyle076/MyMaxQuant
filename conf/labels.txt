@@ -1,0 +1,7 @@
+Composition	Mascot Name	Short Name	AA
+Cx6H12N4O	Arginine-13C6 (R-13C6) (R)	Arg6	R
+Cx6H12Nx4O	Arginine-13C615N4 (R-full) (R)	Arg10	R
+C6H8Hx4N2O	Lysine (D4) (K)	Lys4	K
+Cx6H12N2O	Lysine-13C6 (K-13C6) (K)	Lys6	K
+Cx6H12Nx2O	Lysine-13C615N2 (K-full) (K)	Lys8	K
+C6H8Hx3NO	Leucine (D3) (L)	Leu3	L

@@ -1,0 +1,501 @@
+# Database definitions use 14 parameters:  
+#  1. unique database name
+#  2. path to local FASTA file. Must use forward slashes and include wild card
+#  3. AA for amino acid, NA for nucleic acid
+#  4. approximate numbers of entries (not used)
+#  5. unique integer ID (not used)
+#  6. 1 for memory map, 0 otherwise 
+#  7. number of blocks 
+#  8. number of threads
+#  9. 1 for lock in memory, 0 otherwise
+# 10. 1 for local reference file, 0 otherwise
+# 11. index of parse rule for accession number from FASTA
+# 12. index of parse rule for description from FASTA
+# 13. index of parse rule for accession number from local reference file
+# 14. index of taxonomy block, 0 if no taxonomy 
+#
+Databases
+# MSDB	/fs/home/mascot/mascot/sequence/MSDB/current/MSDB_*.fasta	AA	1234	0	0	1	12	0	1	17	35	19	7
+# NCBInr	/fs/home/mascot/mascot/sequence/NCBInr/current/NCBInr_*.fasta	AA	1234	1	1	1	12	0	0	6	7	0	8
+EST_human	/fs/home/mascot/mascot/sequence/EST_human/current/EST_human_*.fasta	NA	1234	2	1	1	12	0	0	6	7	0	10
+EST_mouse	/fs/home/mascot/mascot/sequence/EST_mouse/current/est_mous*.fasta	NA	1234	3	1	1	12	0	0	6	7	0	11
+# EST_others	/fs/home/mascot/mascot/sequence/EST_others/current/EST_others_*.fasta	NA	1234	4	1	1	12	0	0	6	7	0	9
+SwissProt	/fs/home/mascot/mascot/sequence/SwissProt/current/SwissProt_*.fasta	AA	1234	5	1	1	12	0	1	31	13	15	5
+# Trembl	/fs/home/mascot/mascot/sequence/Trembl/current/Trembl_*.fasta	AA	1234	6	1	1	12	0	1	31	13	15	5
+end
+#
+# Basic regular expressions for parsing sequence files
+#
+PARSE
+# For OWL 3.1r2 accession e.g. >owl||100K_RAT This is a protein
+RULE_1	">owl[^ ]*|\([^ ]*\)"
+#
+# For OWL 3.1r2 description e.g. >owl||100K_RAT This is a protein
+RULE_2	">owl[^ ]*|[^ ]*[ ]\(.*\)"
+#
+# For OWL 3.1 and later .ref file e.g. >P1;100K_RAT
+RULE_3	">[A-Z][0-9];\([^ ]*\)"
+#
+# For OWL 3.1r0 and earlier accession e.g. >100K_RAT This is a protein
+RULE_4	">\([^ ]*\)"
+#
+# For OWL 3.1r0 and earlier  description
+RULE_5	">[^ ]* \(.*\)"
+#
+# For NCBI accession e.g. 
+RULE_6	">\(gi|[0-9]*\)"
+#
+# For NCBI description - everything after the first space
+RULE_7	">[^ ]* \(.*\)"
+#
+# Sequence string for all databases from ms-getseq.exe
+RULE_8	"\*\(.*\)>"
+#
+# Report text for Owl or MSDB from ms-getseq.exe
+RULE_9	"\*.*\(>[A-Z][0-9];.*\)"
+#
+# Report text from NCBI Entrez excluding sequence (used for AA entries)
+RULE_10	"\(LOCUS .*\)ORIGIN "
+#
+# Report text from NCBI Entrez including sequence (used for NA entries)
+RULE_11	"\(LOCUS .*\)"
+#
+# SwissProt ID e.g. >104K_THEPA (P15711) 104 KD MICRO
+RULE_12	">\([^ ]*\)"
+#
+# SwissProt description e.g. >104K_THEPA (P15711) 104 KD MICRO
+RULE_13	">[^ ]* \(.*\)"
+#
+# SwissProt report text from SRS wgetz including sequence
+RULE_14	"<pre>\(.*\)</pre>"
+#
+# For SwissProt .dat file. ID followed by three spaces, then up to next space 
+RULE_15	"^ID   \([^ ]*\)"
+#
+# Report text for local Swiss prot ref file from ms-getseq.exe, ID only
+RULE_16	"\*.*\(ID   [A-Z0-9]*_[A-Z0-9]* .*\)"
+#
+# For MSDB accession e.g. >100K_RAT This is a protein
+RULE_17	">\([^ ]*\)"
+#
+# For MSDB description e.g. >100K_RAT This is a protein
+RULE_18	">[^ ]* \(.*\)"
+#
+# For MSDB reference file. Extract accession e.g. >P1;100K_RAT
+RULE_19	">[A-Z][0-9];\([^ ]*\)[ ]*"
+#
+# Everything after >
+RULE_20	">\(.*\)"
+#
+# IPI accession from Fasta
+RULE_21	">IPI:\([^| .]*\)"
+#
+# IPI full text from ms-getseq.exe
+RULE_22	"\*.*\(ID   IPI[0-9]* .*\)"
+#
+# Everything
+RULE_23	"\(.*\)"
+#
+# Report text for local Sprot / Trembl DAT file from ms-getseq.exe
+RULE_24	"\*.*\(ID   [-A-Z0-9_].*\)"
+#
+# AC from Swiss-Prot Fasta
+RULE_25	">[^(]*.\([^)]*\)"
+#
+#For parsing AC-accession string from SwissProt dat-file
+RULE_26	"^AC   \([^ ;]*\)"
+#
+# Report text for local Swiss prot ref file from ms-getseq.exe
+RULE_27	"\*.*\(AC   [A-Z0-9]*;.*\)"
+#
+# IPI accession from local dat file
+RULE_28	"^ID   \([^ .]*\)"
+#
+# IPI full text from ms-getseq.exe
+RULE_29	"\*.*\(ID   IPI[0-9.]* .*\)"
+#
+# UniRef100 accession from Fasta
+RULE_30	">UniRef100_\([^ ]*\)"
+#
+# ID from Uniprot Fasta, release 51.0 onwards
+RULE_31	">[^|]*|\([^ ]*\)"
+#
+# AC from Uniprot Fasta, release 51.0 onwards
+RULE_32	">\([^|]*\)"
+#
+RULE_33	">MSIPI:\(...[^[|]*\)"
+RULE_34	">*|\(.*\)"
+RULE_35	">\(gi|[A-Za-z0-9]*\)"
+RULE_36	">IPI:\(...[^[|]*\)"
+RULE_37	">\([^|]*|[A-Za-z]*[0-9]*[^|^ ^;]*\)"
+RULE_38	">.*\([^| ]*\)"
+RULE_39	">\([^| ]*\)"
+end
+#
+# Sources for sequence reports
+#
+WWW
+NCBInr_SEQ	"8"	"localhost"	"80"	"/fs/home/mascot/mascot/x-cgi/ms-getseq.exe NCBInr #ACCESSION# seq"
+NCBInr_REP	"10"	"eutils.ncbi.nlm.nih.gov"	"80"	"/entrez/eutils/efetch.fcgi?rettype=gp&retmode=text&db=protein&tool=mascot&id=#ACCESSION#"
+EST_human_SEQ	"8"	"localhost"	"80"	"/fs/home/mascot/mascot/x-cgi/ms-getseq.exe EST_human #ACCESSION# seq #FRAME#"
+EST_human_REP	"11"	"eutils.ncbi.nlm.nih.gov"	"80"	"/entrez/eutils/efetch.fcgi?rettype=gb&retmode=text&db=nucleotide&tool=mascot&id=#ACCESSION#"
+EST_mouse_SEQ	"8"	"localhost"	"80"	"/fs/home/mascot/mascot/x-cgi/ms-getseq.exe EST_mouse #ACCESSION# seq #FRAME#"
+EST_mouse_REP	"11"	"eutils.ncbi.nlm.nih.gov"	"80"	"/entrez/eutils/efetch.fcgi?rettype=gb&retmode=text&db=nucleotide&tool=mascot&id=#ACCESSION#"
+EST_others_SEQ	"8"	"localhost"	"80"	"/fs/home/mascot/mascot/x-cgi/ms-getseq.exe EST_others #ACCESSION# seq #FRAME#"
+end
+#
+#
+# TAXONOMY FOR NCBInr type databases
+Taxonomy_1
+Identifier          Obsolete
+Enabled             1   # 0 to disable it 
+FromRefFile         0
+ErrorLevel          0
+DescriptionLineSep  1   # ctrl a - hex code '1'. For multiple descriptions per entry
+SrcDatabaseRule     "gi|[^|]*|\([^|]*\)"    # To find e.g. if from SwissProt, PIR
+SpeciesFiles        NCBI:names.dmp, SWISSPROT:speclist.txt, PDB:pdbeast.txt
+NodesFiles          NCBI:nodes.dmp
+RULE_gb             NCBI,      CHOP:  ".*\[\(.*\)\]"    # genbank - anything in square brackets
+RULE_dbj            NCBI,      CHOP:  ".*\[\(.*\)\]"    # DNA database of Japan. Anything in last []
+RULE_sp             SWISSPROT, CHOP:  "_\([^ _]*\)"     # Swissprot
+RULE_pir            NCBI,      CHOP:W ".*- \([^(=]*\)"  # PIR anything after the last  - 
+RULE_bbs            NCBI,      CHOP:  ".*\[\([^],=]*\)" # bbs - last bracket contents up to comma or =
+RULE_pdb            PDB,       CHOP:  "pdb|\([^|]*\)"  # Brookhaven - after pdb| before next |
+DefaultRule         NCBI,      CHOP:  ".*\[\(.*\)\]"    # Others - anything in square brackets
+end
+#
+#
+# TAXONOMY FOR OWL
+Taxonomy_2
+Identifier          OWL REF
+Enabled             1   # 0 to disable it 
+FromRefFile         1
+ErrorLevel          0
+DescriptionLineSep  44   # 44 is a comma
+NoBreakDescLineIf   clone, clone_lib, cloned, clones, subclone,strain, LRV1, from, with
+NoBreakDescLineIf   sample, sibling, library, isolated, isolate, expression, clone:p38N
+NoBreakDescLineIf   (see, passed, proviral, PCR, genomic, cell, cell-line, (library, (clone
+NoBreakDescLineIf   (strain, strains, wild-type, salivary, 3-day-old, mesenteric, haplotype
+NoBreakDescLineIf   anti-influenza, chromosomal, (passed, satellite
+NoBreakDescLineIf   Philippine, Portugal, Whitney, Davis, Mather, Nebraska, Austria
+NoBreakDescLineIf   intestine, pancreas, spleen, stage, unopened, de-petiolated, complete
+NoBreakDescLineIf   Hobart, Type, cDNA, DNA, mRNA, fetal, sub_clone, brain, adult
+NoBreakDescLineIf   via, derivative, subtype, passaged, serotype, grown, (from
+NoBreakDescLineIf   PCR-derived, direct, directly, unintegrated, infectious, derived,
+NoBreakDescLineIf   LRV1, AnMNPV, MbMNPV, HaSNPV, WMV, SBWMV, UmV-H1, UmV-P1, cosmid, pVCK219
+NoBreakDescLineIf   non-B, [2], kaposi, (WYMV), SBWMV, tum-, SF13, pDR1996, ATCC, NCK88, NEC14, CP4
+NoBreakDescLineIf   pJL2/3, pKDL243, pNKV, pBac, pBad, ppyrB9(wt), pyrB554, pyrB730, MC4100, pSR9, p48n
+SpeciesFiles        NCBI:names.dmp, NCBI:owl.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         NCBI, CHOP:WP   "\(.*\)"    # Everything!
+PrefixRemoves       C;Species: and mitochondrion chloroplast plastid endogenous
+SuffixRemoves       
+QuickRefSearch      C;Species:
+end
+#
+#
+# TAXONOMY FOR SwissProt from the fasta file
+Taxonomy_3
+Identifier          Swiss-prot FASTA
+Enabled             1   # 0 to disable it 
+FromRefFile         0
+DescriptionLineSep  0   # ctrl a - hex code '1'. For multiple descriptions per entry
+SpeciesFiles        NCBI:names.dmp, SWISSPROT:speclist.txt
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         SWISSPROT, CHOP: ">[^_]*_\([^ ]*\) "    # Anything after _ before space
+PrefixRemoves       
+SuffixRemoves       
+QuickRefSearch      
+end
+#
+#
+# TAXONOMY FOR NCBI dbEST
+Taxonomy_4
+Identifier          Obsolete
+Enabled             1   # 0 to disable it 
+ErrorLevel          0
+FromRefFile         0
+DescriptionLineSep  1   # ctrl a - hex code '1'. For multiple descriptions per entry
+SpeciesFiles        NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+StrStrFiles         NCBI:est.dmp
+DefaultRule         NCBI, CHOP: ".*\[\(.*\)\]"         # Anything in square brackets
+STRSTRRULE          NCBI, CHOP:S "gi|[^ ]* \(.*\)"     # Anything after first space
+SuffixRemoves       similar
+GencodeFiles        NCBI:gencode.dmp
+MitochondrialTranslation 0
+end
+#
+#
+# TAXONOMY FOR SwissProt from the .dat file
+Taxonomy_5
+Identifier          Swiss-prot DAT
+Enabled             1   # 0 to disable it 
+FromRefFile         1
+ConcatRefFileLines  1
+ErrorLevel          2
+DescriptionLineSep  44   # 44 is a comma
+SpeciesFiles        NCBI:names.dmp, SWISSPROT:speclist.txt
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         NCBI, CHOP:WP "\(.*\)" 
+PrefixRemoves       OS and
+SuffixRemoves       
+QuickRefSearch      "OS   "
+end
+#
+#
+# TAXONOMY FOR MSDB
+Taxonomy_6
+Identifier          MSDB REF (pre 20000621)
+Enabled             1   # 0 to disable it 
+FromRefFile         1
+ErrorLevel          0
+DescriptionLineSep  44   # 44 is a comma
+ConcatRefFileLines  0
+NoBreakDescLineIf   clone, clone_lib, cloned, clones, subclone,strain, LRV1, from, with
+NoBreakDescLineIf   sample, sibling, library, isolated, isolate, expression, clone:p38N
+NoBreakDescLineIf   (see, passed, proviral, PCR, genomic, cell, cell-line, (library, (clone
+NoBreakDescLineIf   (strain, strains, wild-type, salivary, 3-day-old, mesenteric, haplotype
+NoBreakDescLineIf   anti-influenza, chromosomal, (passed, satellite
+NoBreakDescLineIf   Philippine, Portugal, Whitney, Davis, Mather, Nebraska, Austria
+NoBreakDescLineIf   intestine, pancreas, spleen, stage, unopened, de-petiolated, complete
+NoBreakDescLineIf   Hobart, Type, cDNA, DNA, mRNA, fetal, sub_clone, brain, adult
+NoBreakDescLineIf   via, derivative, subtype, passaged, serotype, grown, (from
+NoBreakDescLineIf   PCR-derived, direct, directly, unintegrated, infectious, derived,
+NoBreakDescLineIf   LRV1, AnMNPV, MbMNPV, HaSNPV, WMV, SBWMV, UmV-H1, UmV-P1, cosmid, pVCK219
+NoBreakDescLineIf   non-B, [2], kaposi, (WYMV), SBWMV, tum-, SF13, pDR1996, ATCC, NCK88, NEC14, CP4
+NoBreakDescLineIf   pJL2/3, pKDL243, pNKV, pBac, pBad, ppyrB9(wt), pyrB554, pyrB730, MC4100, pSR9, p48n
+SpeciesFiles        NCBI:names.dmp, NCBI:owl.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         NCBI, CHOP:WP   "\(.*\)"    # Everything!
+PrefixRemoves       C;Species: and mitochondrion chloroplast plastid endogenous
+SuffixRemoves       
+QuickRefSearch      C;Species:
+end
+#
+#
+# TAXONOMY FOR MSDB_20000621 or later
+Taxonomy_7
+Identifier          MSDB REF
+Enabled             1   # 0 to disable it 
+FromRefFile         1
+ErrorLevel          0
+DescriptionLineSep  44   # 44 is a comma
+ConcatRefFileLines  0
+SpeciesFiles        NCBI:names.dmp, NCBI:owl.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         NCBI, CHOP:WP   "\(.*\)"    # Everything!
+PrefixRemoves       C;Species and mitochondrion chloroplast plastid endogenous
+SuffixRemoves       
+QuickRefSearch      C;Species
+DoThisRuleFirst     "C;Species .*:\(.*\)"  # Everything after TNU23504:
+AccFromSpeciesLine  "C;Species \([^:]*\)"
+end
+#
+#
+# TAXONOMY FOR NCBInr using GI2TAXID
+Taxonomy_8
+Enabled             1   # 0 to disable it 
+FromRefFile         0
+ErrorLevel          0
+DescriptionLineSep  1   # ctrl a - hex code '1'. For multiple descriptions per entry
+SpeciesFiles        GI2TAXID:gi_taxid_prot.dmp, NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         GI2TAXID,      CHOP:  "gi|\([0-9]*\)"   #The gi number
+Identifier          NCBI nr FASTA using GI2TAXID
+AccFromSpeciesLine  "\(gi|[0-9]*\)"
+end
+#
+#
+# TAXONOMY FOR dbEST using GI2TAXID
+Taxonomy_9
+Enabled             1   # 0 to disable it 
+FromRefFile         0
+ErrorLevel          0
+DescriptionLineSep  1   # ctrl a - hex code '1'. For multiple descriptions per entry
+SpeciesFiles        GI2TAXID:gi_taxid_nucl.dmp, NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         GI2TAXID,      CHOP:  "gi|\([0-9]*\)"   #The gi number
+Identifier          dbEST FASTA using GI2TAXID
+GencodeFiles        NCBI:gencode.dmp
+AccFromSpeciesLine  "\(gi|[0-9]*\)"
+MitochondrialTranslation 0
+end
+#
+#
+# TAXONOMY FOR EST_human with TaxID
+Taxonomy_10
+Enabled             1   # 0 to disable it 
+SpeciesFiles        NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+Identifier          EST_human FASTA with TaxID
+GencodeFiles        NCBI:gencode.dmp
+MitochondrialTranslation 0
+TaxID		    9606
+end
+#
+#
+# TAXONOMY FOR EST_mouse with TaxID
+Taxonomy_11
+Enabled             1   # 0 to disable it 
+SpeciesFiles        NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+Identifier          EST_mouse FASTA with TaxID
+GencodeFiles        NCBI:gencode.dmp
+MitochondrialTranslation 0
+TaxID		    10090
+end
+#
+#
+# TAXONOMY FOR UniRef
+Taxonomy_12
+Identifier          UniRef
+Enabled             1   # 0 to disable it 
+FromRefFile         0
+ErrorLevel          0
+SpeciesFiles        NCBI:names.dmp
+NodesFiles          NCBI:nodes.dmp
+DefaultRule         NCBI,      CHOP:W  ".*\[\(.*\)\]"    # anything in square brackets
+end
+#
+Cluster
+#
+# Enable (1) or disable (0) cluster mode
+Enabled 0
+#
+# MasterComputerName must be the hostname
+MasterComputerName cluster07
+#
+# Node defaults
+DefaultNodeOS Windows_NT
+DefaultNodeHomeDir d:/MascotNode
+#
+# Following line must be commented out UNLESS this is a homogeneous cluster of NT systems.
+# DefaultNodeHomeDirFromMaster \\<host_name>\d_drive\MascotNode
+#
+# Following line must be commented out WHEN this is a homogeneous cluster of NT systems.
+# MascotNodeScript        /fs/home/mascot/mascot/bin/load_node.pl
+#
+# Sub-cluster definition
+# Syntax is SubClusterSet X Y where X is the sub-cluster number
+# and Y is the maximum number of CPUs to use within the given sub-cluster.
+#
+SubClusterSet 0 1
+# SubClusterSet 1 50
+#
+# Time outs, log files
+IPCTimeout              5                  # seconds with no response before timeout
+IPCLogging              0                  # no logging = 0, minimal = 1, verbose = 2
+IPCLogfile              ../logs/ipc.log    # relative path
+CheckNodesAliveFreq     30                 # seconds between node health checks
+SecsToWaitForNodeAtStartup  20             # seconds to wait for node to come on-line
+#
+end
+#
+# UniGene
+#
+# UniGene index files defined by
+# species path
+# Option to cluster results from searching sequence database defined by
+# name species [[species] ... [species]]
+#
+UniGene
+# human /fs/home/mascot/mascot/unigene/human/current/Hs.data
+# mouse /fs/home/mascot/mascot/unigene/mouse/current/Mm.data
+# mosquito /fs/home/mascot/mascot/unigene/mosquito/current/Aga.data
+# arabidopsis /fs/home/mascot/mascot/unigene/arabidopsis/current/At.data
+# maize /fs/home/mascot/mascot/unigene/maize/current/Zm.data
+# bovine /fs/home/mascot/mascot/unigene/bovine/current/Bt.data
+# drosophila /fs/home/mascot/mascot/unigene/drosophila/current/Dm.data
+# zebrafish /fs/home/mascot/mascot/unigene/zebrafish/current/Dr.data
+# barley /fs/home/mascot/mascot/unigene/barley/current/Hv.data
+# rice /fs/home/mascot/mascot/unigene/rice/current/Os.data
+# rat /fs/home/mascot/mascot/unigene/rat/current/Rn.data
+# wheat /fs/home/mascot/mascot/unigene/wheat/current/Ta.data
+# xenopus /fs/home/mascot/mascot/unigene/xenopus/current/Xl.data
+# EST_human human
+# EST_mouse mouse
+# EST_others mosquito arabidopsis maize bovine drosophila zebrafish barley rice rat wheat xenopus
+end
+#
+# Options
+#
+Options
+SaveLastQueryAsc 0
+SaveEveryLastQueryAsc 0
+LastQueryAscFile ../logs/lastquery.asc
+InterFileBasePath /fs/home/mascot/mascot/data
+InterFileRelPath ../data
+ResultsPerlScript ../cgi/master_results.pl
+ResultsFullURL http://cluster07:2000/mascot/cgi/master_results.pl
+NoResultsScript ../cgi/master_results.pl
+TestDirectory ../data/test
+MascotCmdLine ../cgi/nph-mascot.exe
+MascotControlFile ../data/mascot.control
+MascotNodeControlFile ../data/mascotnode.control
+MascotJobIdFile ../data/mascot.job
+GetSeqJobIdFile ../data/getseq.job
+UniqueJobStartNumber 1234
+TaxBrowserUrl http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?lvl=0&id=#TAXID#
+MassDecimalPlaces 4
+IonsDecimalPlaces 4
+IntensitySigFigs 4
+MinPepLenInPepSummary 5
+EmailUsersEnabled 0
+EmailErrorsEnabled 0
+EmailService your_service
+EmailProfile your_profile
+EmailFromUser your_id
+EmailFromTextName your_domain
+EmailPassword your_password
+EmailTimeOutPeriod 120
+sendmailPath /usr/lib/sendmail
+MailTempFile /var/tmp/MXXXXXX
+ErrMessageEmailTo administrator@your.domain
+MailTransport 0
+MonitorEmailCheckFreq 300
+MonitorTestTimeout 1200
+LogoImageFile ../images/88x31_logo_white.gif
+ErrorLogFile ../logs/errorlog.txt
+SearchLogFile ../logs/searches.log
+MonitorLogFile ../logs/monitor.log
+NTMonitorGroup Administrators
+NTIUserGroup Guests
+ForkForUnixApache 1
+IgnoreIonsScoreBelow 0
+MaxSequenceLen 50000
+MaxConcurrentSearches 19
+CentroidWidth 0.25
+FormVersion 1.01
+ReportNumberChoices AUTO,5,10,20,30,50,100,200
+ShowSubSets 0
+RequireBoldRed 0
+ReviewColWidths 7,7,25,9,3,40,7,25,6,6,2,4,6,6,7
+SplitNumberOfQueries 1000
+SplitDataFileSize 10000000
+SelectSwitch 1000
+MudpitSwitch 0.001
+MaxQueries 1000000
+IgnoreDupeAccessions EST_others
+MinPepLenInSearch 5
+AutoSelectCharge 1
+PrecursorCutOut -1,-1
+ICATQuantitationMethod ICAT ABI Cleavable [MD]
+IteratePMFIntensities 1
+MaxDescriptionLen 250
+#ReviewColWidths 7,8,8,27,30,100,32,25,6,13,2,4,6,16,7
+# TaxBrowserUrl ../x-cgi/ms-gettaxonomy.exe?4+#DATABASE#+#ACCESSION#
+# proxy_server myserver
+# proxy_username myusername
+# proxy_password mypassword
+#ResultsFileFormatVersion 2.1
+end
+#
+# Cron Emulator
+#
+Cron
+CronEnable 0
+30	0	1-31	*	*	perl /fs/home/mascot/mascot/bin/mirror.pl
+0	1	*	*	0	perl /fs/home/mascot/mascot/bin/db_update.pl MSDB_from_EBI
+0	3	*	*	0	perl /fs/home/mascot/mascot/bin/db_update.pl NCBInr_from_NCBI
+end

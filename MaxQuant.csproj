@@ -1,0 +1,161 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7C617AE-2C82-49CE-B14F-E1BD803DE42B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaxQuant</RootNamespace>
+    <AssemblyName>MaxQuant</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Mol\AASequence.cs" />
+    <Compile Include="Mol\AminoAcid.cs" />
+    <Compile Include="Mol\CleavageRule.cs" />
+    <Compile Include="Mol\Enzyme.cs" />
+    <Compile Include="Mol\LabelCombinations.cs" />
+    <Compile Include="Mol\Location.cs" />
+    <Compile Include="Mol\Modification.cs" />
+    <Compile Include="Mol\Molecule.cs" />
+    <Compile Include="Mol\MolUtil.cs" />
+    <Compile Include="Mol\Protein.cs" />
+    <Compile Include="Mol\SecondaryStructure.cs" />
+    <Compile Include="Mol\SecondaryStructureElement.cs" />
+    <Compile Include="Mol\Sequence.cs" />
+    <Compile Include="Mol\SequenceDatabase.cs" />
+    <Compile Include="Mol\SilacLabel.cs" />
+    <Compile Include="Mol\Tables.cs" />
+    <Compile Include="Mol\VisualComponents.cs" />
+    <Compile Include="Num\BayesianInversion2D.cs" />
+    <Compile Include="Num\Combination.cs" />
+    <Compile Include="Spec\IIdentificationProvider.cs" />
+    <Compile Include="Spec\ModificationPosition.cs" />
+    <Compile Include="Spec\ModificationSiteType.cs" />
+    <Compile Include="Util\IndexedBitMatrix.cs" />
+    <Compile Include="Num\Test\OneSampleTest.cs" />
+    <Compile Include="Num\Test\OneSampleTTest.cs" />
+    <Compile Include="Mol\DatabaseModifiedPeptide.cs" />
+    <Compile Include="Mol\DatabasePeptide.cs" />
+    <Compile Include="Spec\Evidence\AbstractEvidence.cs" />
+    <Compile Include="Spec\Evidence\IsotopeMsmsEvidence.cs" />
+    <Compile Include="Spec\Evidence\PeakMsmsEvidence.cs" />
+    <Compile Include="Spec\Evidence\SilacEvidence.cs" />
+    <Compile Include="Spec\Evidence\SilacMassEvidence.cs" />
+    <Compile Include="Spec\Evidence\SilacMatchEvidence.cs" />
+    <Compile Include="Spec\Evidence\SilacMsmsEvidence.cs" />
+    <Compile Include="Spec\ICombinedData.cs" />
+    <Compile Include="Spec\Identifications.cs" />
+    <Compile Include="Spec\IIdentifiedModifiedPeptide.cs" />
+    <Compile Include="Spec\IIdentifiedPeptide.cs" />
+    <Compile Include="Spec\IIdentifiedPeptideList.cs" />
+    <Compile Include="Spec\IIdentifiedProteinGroup.cs" />
+    <Compile Include="Spec\IPeakList.cs" />
+    <Compile Include="Spec\IProteinSet.cs" />
+    <Compile Include="Spec\IsotopeCluster.cs" />
+    <Compile Include="Spec\MascotPeptide.cs" />
+    <Compile Include="Spec\MascotQuery.cs" />
+    <Compile Include="Spec\MascotQueryType.cs" />
+    <Compile Include="Mol\ModifiedPeptide.cs" />
+    <Compile Include="Spec\MsmsData.cs" />
+    <Compile Include="Spec\MsmsHit.cs" />
+    <Compile Include="Spec\MsmsPeakAnnotation.cs" />
+    <Compile Include="Spec\MsmsSeriesType.cs" />
+    <Compile Include="Spec\NeighbourList.cs" />
+    <Compile Include="Mol\Peptide.cs" />
+    <Compile Include="Spec\PeptideModificationCounts.cs" />
+    <Compile Include="Spec\PeptideModificationState.cs" />
+    <Compile Include="Spec\PeptideScoring.cs" />
+    <Compile Include="Spec\Pscore.cs" />
+    <Compile Include="Spec\QuantitationMode.cs" />
+    <Compile Include="Spec\RawFileInfo.cs" />
+    <Compile Include="Spec\ReQuantitationResult.cs" />
+    <Compile Include="Spec\SearchEngineParams.cs" />
+    <Compile Include="Spec\SignalType.cs" />
+    <Compile Include="Num\SignificanceType.cs" />
+    <Compile Include="Spec\SilacCluster.cs" />
+    <Compile Include="Spec\SilacPair.cs" />
+    <Compile Include="Spec\SilacType.cs" />
+    <Compile Include="Spec\SpectrumCache.cs" />
+    <Compile Include="Spec\TmpIdentifiedProteinGroup.cs" />
+    <Compile Include="Tasks\T10ProteinFdr.cs" />
+    <Compile Include="Tasks\T04ChargePairDetection.cs" />
+    <Compile Include="Tasks\T02DeIsotoping.cs" />
+    <Compile Include="Tasks\T06MsmsPreparation.cs" />
+    <Compile Include="Tasks\T05NonlinRecalibration.cs" />
+    <Compile Include="Tasks\T09ProteinGrouping.cs" />
+    <Compile Include="Tasks\T08ReQuantification.cs" />
+    <Compile Include="Tasks\T07SearchEngineEnhancement.cs" />
+    <Compile Include="Tasks\T03SilacAssembly.cs" />
+    <Compile Include="Tasks\T11ProteinRatiosAndSignificance.cs" />
+    <Compile Include="Util\ArrayUtil.cs" />
+    <Compile Include="Spec\CentroidPosition.cs" />
+    <Compile Include="Mol\ChemElement.cs" />
+    <Compile Include="Util\DataUtil.cs" />
+    <Compile Include="Util\FileUtil.cs" />
+    <Compile Include="Spec\GrowablePeak.cs" />
+    <Compile Include="Spec\IPeakCollector.cs" />
+    <Compile Include="Spec\IRawFile.cs" />
+    <Compile Include="Spec\Ms1CentroidList.cs" />
+    <Compile Include="Num\NumericalRecipes.cs" />
+    <Compile Include="Num\NumUtil.cs" />
+    <Compile Include="Spec\Peak.cs" />
+    <Compile Include="Tasks\T01PeakDetection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spec\Spectrum.cs" />
+    <Compile Include="Util\HashSet.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="conf\labels.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="conf\unimod.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="conf\enzymes">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="conf\mascot.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="conf\mod_file">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

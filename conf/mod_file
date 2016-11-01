@@ -1,0 +1,2907 @@
+Title:15dB-biotin (C)
+Hidden 
+Residues:C 729.395762 730.0356
+*
+Title:2HPG (R)
+Hidden 
+Residues:R 438.153935 438.4333
+*
+Title:4-ONE (C)
+Hidden 
+Residues:C 257.108565 257.3492
+*
+Title:4-ONE (H)
+Hidden 
+Residues:H 291.158292 291.3456
+*
+Title:4-ONE (K)
+Hidden 
+Residues:K 282.194343 282.3786
+*
+Title:a-type-ion (C-term)
+Hidden 
+Cterm:-12.000000 -12.0107
+*
+Title:AccQTag (K)
+Hidden 
+Residues:K 298.142976 298.3397
+*
+Title:AccQTag (N-term)
+Hidden 
+Nterm:171.055838 171.1753
+*
+Title:Acetyl (C-term)
+Cterm:59.013305 59.0440
+*
+Title:Acetyl (K)
+Residues:K 170.105528 170.2090
+*
+Title:Acetyl (N-term)
+Nterm:43.018390 43.0446
+*
+Title:Acetyl (Protein N-term)
+ProteinNterm:43.018390 43.0446
+*
+Title:Acetyl (S)
+Hidden 
+Residues:S 129.042593 129.1140
+*
+Title:Acetyl:2H(3) (K)
+Hidden 
+Residues:K 173.124358 173.2275
+*
+Title:Acetyl:2H(3) (N-term)
+Hidden 
+Nterm:46.037220 46.0631
+*
+Title:ADP-Ribosyl (C)
+Hidden 
+Residues:C 644.070295 644.4434
+*
+Title:ADP-Ribosyl (E)
+Hidden 
+Residues:E 670.103703 670.4145
+*
+Title:ADP-Ribosyl (N)
+Hidden 
+Residues:N 655.104037 655.4031
+*
+Title:ADP-Ribosyl (R)
+Hidden 
+Residues:R 697.162221 697.4862
+*
+Title:ADP-Ribosyl (S)
+Hidden 
+Residues:S 628.093138 628.3778
+*
+Title:AEBS (H)
+Hidden 
+Residues:H 320.094311 320.3669
+*
+Title:AEBS (K)
+Hidden 
+Residues:K 311.130362 311.3999
+*
+Title:AEBS (Protein N-term)
+Hidden 
+ProteinNterm:184.043224 184.2355
+*
+Title:AEBS (S)
+Hidden 
+Residues:S 270.067427 270.3049
+*
+Title:AEBS (Y)
+Hidden 
+Residues:Y 346.098728 346.4009
+*
+Title:AEC-MAEC (S)
+Hidden 
+Residues:S 146.051383 146.2107
+*
+Title:AEC-MAEC (T)
+Hidden 
+Residues:T 160.067034 160.2373
+*
+Title:Amidated (C-term)
+Cterm:16.018724 16.0225
+*
+Title:Amidated (Protein C-term)
+ProteinCterm:16.018724 16.0225
+*
+Title:Amidine (K)
+Hidden 
+Residues:K 169.121512 169.2242
+*
+Title:Amidine (N-term)
+Hidden 
+Nterm:42.034374 42.0598
+*
+Title:Amidino (C)
+Hidden 
+Residues:C 145.030983 145.1829
+*
+Title:Amino (Y)
+Hidden 
+Residues:Y 178.074228 178.1879
+*
+Title:Ammonia-loss (N-term C)
+ResiduesNterm:C -16.018724 -16.0226
+*
+Title:Ammonia-loss (Protein N-term S)
+Hidden 
+ResiduesProteinNterm:S -16.018724 -16.0226
+*
+Title:Ammonia-loss (Protein N-term T)
+Hidden 
+ResiduesProteinNterm:T -16.018724 -16.0226
+*
+Title:Archaeol (C)
+Hidden 
+Residues:C 737.671967 738.2846
+*
+Title:Arg->GluSA (R)
+Hidden 
+Residues:R 113.047678 113.1146
+*
+Title:Arg->Orn (R)
+Hidden 
+Residues:R 114.079313 114.1457
+*
+Title:Argbiotinhydrazide (R)
+Hidden 
+Residues:R 355.167810 355.4557
+*
+Title:Arginine-13C6 (R-13C6) (R)
+Residues:R 162.121240 162.1416
+*
+Title:Arginine-13C615N4 (R-full) (R)
+Residues:R 166.109380 166.1153
+*
+Title:Asn->Succinimide (N)
+Hidden 
+Residues:N 97.040187 97.0953
+*
+Title:BADGE (C)
+Hidden 
+Residues:C 443.176644 443.5558
+*
+Title:BDMAPP (H)
+Hidden 
+Residues:H 390.069137 391.2624
+*
+Title:BDMAPP (K)
+Hidden 
+Residues:K 381.105188 382.2954
+*
+Title:BDMAPP (Protein N-term)
+Hidden 
+ProteinNterm:254.018050 255.1310
+*
+Title:BDMAPP (W)
+Hidden 
+Residues:W 439.089538 440.3330
+*
+Title:BDMAPP (Y)
+Hidden 
+Residues:Y 416.073554 417.2964
+*
+Title:Benzoyl (K)
+Hidden 
+Residues:K 232.121178 232.2784
+*
+Title:Benzoyl (N-term)
+Hidden 
+Nterm:105.034040 105.1140
+*
+Title:BHT (C)
+Hidden 
+Residues:C 321.176250 321.4775
+*
+Title:BHT (H)
+Hidden 
+Residues:H 355.225977 355.4739
+*
+Title:BHT (K)
+Hidden 
+Residues:K 346.262028 346.5069
+*
+Title:BHTOH (C)
+Hidden 
+Residues:C 337.171165 337.4769
+*
+Title:BHTOH (H)
+Hidden 
+Residues:H 371.220892 371.4733
+*
+Title:BHTOH (K)
+Hidden 
+Residues:K 362.256943 362.5063
+*
+Title:Biotin (K)
+Residues:K 354.172561 354.4677
+*
+Title:Biotin (N-term)
+Nterm:227.085423 227.3033
+*
+Title:Biotin-HPDP (C)
+Hidden 
+Residues:C 531.200767 531.7553
+*
+Title:Biotin-PEO-Amine (D)
+Hidden 
+Residues:D 471.215155 471.5709
+*
+Title:Biotin-PEO-Amine (E)
+Hidden 
+Residues:E 485.230805 485.5975
+*
+Title:Biotin-PEO-Amine (Protein C-term)
+Hidden 
+ProteinCterm:373.190952 373.4908
+*
+Title:BisANS (K)
+Hidden 
+Residues:K 720.171241 720.8133
+*
+Title:Bromo (F)
+Hidden 
+Residues:F 224.978925 226.0700
+*
+Title:Bromo (H)
+Hidden 
+Residues:H 214.969423 216.0354
+*
+Title:Bromo (W)
+Hidden 
+Residues:W 263.989824 265.1060
+*
+Title:Bromobimane (C)
+Hidden 
+Residues:C 293.083413 293.3415
+*
+Title:C8-QAT (K)
+Hidden 
+Residues:K 355.319878 355.5585
+*
+Title:C8-QAT (N-term)
+Hidden 
+Nterm:228.232740 228.3941
+*
+Title:CAF (N-term)
+Hidden 
+Nterm:136.990854 137.1344
+*
+Title:CAMthiopropanoyl (K)
+Hidden 
+Residues:K 273.114712 273.3519
+*
+Title:CAMthiopropanoyl (Protein N-term)
+Hidden 
+ProteinNterm:146.027574 146.1875
+*
+Title:Can-FP-biotin (S)
+Hidden 
+Residues:S 534.227707 534.6064
+*
+Title:Can-FP-biotin (T)
+Hidden 
+Residues:T 548.243358 548.6330
+*
+Title:Can-FP-biotin (Y)
+Hidden 
+Residues:Y 610.259008 610.7024
+*
+Title:Carbamidomethyl (C)
+Residues:C 160.030649 160.1942
+*
+Title:Carbamidomethyl (D)
+Hidden 
+Residues:D 172.048407 172.1387
+*
+Title:Carbamidomethyl (E)
+Hidden 
+Residues:E 186.064057 186.1653
+*
+Title:Carbamidomethyl (H)
+Hidden 
+Residues:H 194.080376 194.1906
+*
+Title:Carbamidomethyl (K)
+Hidden 
+Residues:K 185.116427 185.2236
+*
+Title:Carbamidomethyl (N-term)
+Hidden 
+Nterm:58.029289 58.0592
+*
+Title:Carbamyl (C)
+Hidden 
+Residues:C 146.014999 146.1676
+*
+Title:Carbamyl (K)
+Residues:K 171.100777 171.1970
+*
+Title:Carbamyl (M)
+Hidden 
+Residues:M 174.046299 174.2208
+*
+Title:Carbamyl (N-term)
+Nterm:44.013639 44.0326
+*
+Title:Carbamyl (R)
+Hidden 
+Residues:R 199.106925 199.2104
+*
+Title:Carboxy (D)
+Hidden 
+Residues:D 159.016772 159.0969
+*
+Title:Carboxy (E)
+Hidden 
+Residues:E 173.032422 173.1235
+*
+Title:Carboxy (K)
+Hidden 
+Residues:K 172.084792 172.1818
+*
+Title:Carboxy (Protein N-term M)
+Hidden 
+ResiduesProteinNterm:M 44.997654 45.0174
+*
+Title:Carboxy (W)
+Hidden 
+Residues:W 230.069142 230.2194
+*
+Title:Carboxy->Thiocarboxy (Protein C-term G)
+Hidden 
+ResiduesProteinCterm:G 32.979896 33.0729
+*
+Title:Carboxyethyl (K)
+Hidden 
+Residues:K 200.116092 200.2350
+*
+Title:Carboxymethyl (C)
+Residues:C 161.014664 161.1790
+*
+Title:Carboxymethyl (K)
+Hidden 
+Residues:K 186.100442 186.2084
+*
+Title:Carboxymethyl (N-term)
+Hidden 
+Nterm:59.013304 59.0440
+*
+Title:Carboxymethyl (W)
+Hidden 
+Residues:W 244.084792 244.2460
+*
+Title:Cation:Cu[I] (C-term)
+Hidden 
+Cterm:78.924514 79.5454
+*
+Title:Cation:Cu[I] (DE)
+Hidden 
+Residues:D 176.948717 177.6255
+Residues:E 190.964367 191.6521
+*
+Title:Cation:K (C-term)
+Hidden 
+Cterm:54.958622 55.0977
+*
+Title:Cation:K (DE)
+Hidden 
+Residues:D 152.982825 153.1778
+Residues:E 166.998475 167.2044
+*
+Title:Cation:Na (C-term)
+Cterm:38.984683 38.9891
+*
+Title:Cation:Na (DE)
+Residues:D 137.008886 137.0692
+Residues:E 151.024536 151.0958
+*
+Title:CHDH (D)
+Hidden 
+Residues:D 409.210052 409.4733
+*
+Title:Cholesterol (Protein C-term)
+Hidden 
+ProteinCterm:385.347042 385.6456
+*
+Title:CLIP_TRAQ_1 (K)
+Hidden 
+Residues:K 268.189926 268.3553
+*
+Title:CLIP_TRAQ_1 (N-term)
+Hidden 
+Nterm:141.102788 141.1909
+*
+Title:CLIP_TRAQ_1 (Y)
+Hidden 
+Residues:Y 303.158292 303.3563
+*
+Title:CLIP_TRAQ_2 (K)
+Hidden 
+Residues:K 269.193281 269.3479
+*
+Title:CLIP_TRAQ_2 (N-term)
+Hidden 
+Nterm:142.106143 142.1835
+*
+Title:CLIP_TRAQ_2 (Y)
+Hidden 
+Residues:Y 304.161647 304.3489
+*
+Title:CLIP_TRAQ_3 (K)
+Hidden 
+Residues:K 399.243699 399.4699
+*
+Title:CLIP_TRAQ_3 (N-term)
+Hidden 
+Nterm:272.156561 272.3055
+*
+Title:CLIP_TRAQ_3 (Y)
+Hidden 
+Residues:Y 434.212065 434.4709
+*
+Title:CLIP_TRAQ_4 (K)
+Hidden 
+Residues:K 372.196415 372.4015
+*
+Title:CLIP_TRAQ_4 (N-term)
+Hidden 
+Nterm:245.109277 245.2371
+*
+Title:CLIP_TRAQ_4 (Y)
+Hidden 
+Residues:Y 407.164781 407.4025
+*
+Title:CNBS (W)
+Hidden 
+Residues:W 339.067762 339.3684
+*
+Title:CNBS:13C(6) (W)
+Hidden 
+Residues:W 345.087891 345.3243
+*
+Title:CoenzymeA (C)
+Hidden 
+Residues:C 868.108745 868.6611
+*
+Title:Crotonaldehyde (C)
+Hidden 
+Residues:C 173.051050 173.2327
+*
+Title:Crotonaldehyde (H)
+Hidden 
+Residues:H 207.100777 207.2291
+*
+Title:Crotonaldehyde (K)
+Hidden 
+Residues:K 198.136828 198.2621
+*
+Title:CuSMo (C)
+Hidden 
+Residues:C 1025.844040 1025.2099
+*
+Title:Cyano (C)
+Hidden 
+Residues:C 128.004434 128.1524
+*
+Title:CyDye-Cy3 (C)
+Hidden 
+Residues:C 775.307341 775.9764
+*
+Title:CyDye-Cy5 (C)
+Hidden 
+Residues:C 787.307341 787.9871
+*
+Title:Cys->Dha (C)
+Hidden 
+Residues:C 69.021464 69.0620
+*
+Title:Cys->Oxoalanine (C)
+Hidden 
+Residues:C 85.016379 85.0614
+*
+Title:Cys->PyruvicAcid (Protein N-term C)
+Hidden 
+ResiduesProteinNterm:C -31.995880 -32.0882
+*
+Title:Cysteinyl (C)
+Hidden 
+Residues:C 222.013284 222.2852
+*
+Title:Cytopiloyne (C)
+Hidden 
+Residues:C 465.145738 465.5167
+*
+Title:Cytopiloyne (K)
+Hidden 
+Residues:K 490.231516 490.5461
+*
+Title:Cytopiloyne (N-term)
+Hidden 
+Nterm:363.144378 363.3817
+*
+Title:Cytopiloyne (P)
+Hidden 
+Residues:P 459.189317 459.4890
+*
+Title:Cytopiloyne (R)
+Hidden 
+Residues:R 518.237664 518.5595
+*
+Title:Cytopiloyne (S)
+Hidden 
+Residues:S 449.168581 449.4511
+*
+Title:Cytopiloyne (Y)
+Hidden 
+Residues:Y 525.199882 525.5471
+*
+Title:Cytopiloyne+water (C)
+Hidden 
+Residues:C 483.156303 483.5320
+*
+Title:Cytopiloyne+water (K)
+Hidden 
+Residues:K 508.242081 508.5614
+*
+Title:Cytopiloyne+water (N-term)
+Hidden 
+Nterm:381.154943 381.3970
+*
+Title:Cytopiloyne+water (R)
+Hidden 
+Residues:R 536.248229 536.5748
+*
+Title:Cytopiloyne+water (S)
+Hidden 
+Residues:S 467.179146 467.4664
+*
+Title:Cytopiloyne+water (T)
+Hidden 
+Residues:T 481.194797 481.4930
+*
+Title:Cytopiloyne+water (Y)
+Hidden 
+Residues:Y 543.210447 543.5624
+*
+Title:DAET (S)
+Hidden 
+Residues:S 174.082683 174.2639
+*
+Title:DAET (T)
+Hidden 
+Residues:T 188.098334 188.2905
+*
+Title:Dansyl (K)
+Hidden 
+Residues:K 361.146012 361.4585
+*
+Title:Dansyl (N-term)
+Hidden 
+Nterm:234.058874 234.2941
+*
+Title:Deamidated (NQ)
+Residues:N 115.026943 115.0874
+Residues:Q 129.042594 129.1140
+*
+Title:Deamidated (Protein N-term F)
+Hidden 
+ResiduesProteinNterm:F 1.991841 1.9927
+*
+Title:Deamidated (R)
+Hidden 
+Residues:R 157.085127 157.1705
+*
+Title:Deamidated:18O(1) (NQ)
+Hidden 
+Residues:N 117.031188 117.0871
+Residues:Q 131.046839 131.1137
+*
+Title:Decanoyl (S)
+Hidden 
+Residues:S 241.167793 241.3266
+*
+Title:Decanoyl (T)
+Hidden 
+Residues:T 255.183444 255.3532
+*
+Title:Dehydrated (D)
+Hidden 
+Residues:D 97.016378 97.0721
+*
+Title:Dehydrated (N-term C)
+ResiduesNterm:C -17.002740 -17.0074
+*
+Title:Dehydrated (Protein C-term N)
+Hidden 
+ResiduesProteinCterm:N -1.007825 -1.0080
+*
+Title:Dehydrated (Protein C-term Q)
+Hidden 
+ResiduesProteinCterm:Q -1.007825 -1.0080
+*
+Title:Dehydrated (S)
+Hidden 
+Residues:S 69.021463 69.0620
+*
+Title:Dehydrated (T)
+Hidden 
+Residues:T 83.037114 83.0886
+*
+Title:Dehydrated (Y)
+Hidden 
+Residues:Y 145.052764 145.1580
+*
+Title:Dehydro (C)
+Residues:C 102.001360 102.1350
+*
+Title:Delta:H(1)O(-1)18O(1) (N)
+Hidden 
+Residues:N 117.054998 117.1103
+*
+Title:Delta:H(2)C(2) (H)
+Hidden 
+Residues:H 163.074562 163.1766
+*
+Title:Delta:H(2)C(2) (K)
+Hidden 
+Residues:K 154.110613 154.2096
+*
+Title:Delta:H(2)C(3) (K)
+Hidden 
+Residues:K 166.110613 166.2203
+*
+Title:Delta:H(2)C(3)O(1) (K)
+Hidden 
+Residues:K 182.105528 182.2197
+*
+Title:Delta:H(2)C(3)O(1) (R)
+Hidden 
+Residues:R 210.111676 210.2331
+*
+Title:Delta:H(2)C(5) (K)
+Hidden 
+Residues:K 190.110613 190.2417
+*
+Title:Delta:H(4)C(2) (H)
+Hidden 
+Residues:H 165.090212 165.1925
+*
+Title:Delta:H(4)C(2) (K)
+Hidden 
+Residues:K 156.126263 156.2255
+*
+Title:Delta:H(4)C(2)O(-1)S(1) (S)
+Hidden 
+Residues:S 131.040484 131.1961
+*
+Title:Delta:H(4)C(3) (H)
+Hidden 
+Residues:H 177.090212 177.2032
+*
+Title:Delta:H(4)C(3) (K)
+Hidden 
+Residues:K 168.126263 168.2362
+*
+Title:Delta:H(4)C(3)O(1) (C)
+Hidden 
+Residues:C 159.035400 159.2062
+*
+Title:Delta:H(4)C(3)O(1) (H)
+Hidden 
+Residues:H 193.085127 193.2026
+*
+Title:Delta:H(4)C(3)O(1) (K)
+Hidden 
+Residues:K 184.121178 184.2356
+*
+Title:Delta:H(4)C(6) (K)
+Hidden 
+Residues:K 204.126263 204.2683
+*
+Title:Delta:H(5)C(2) (P)
+Hidden 
+Residues:P 126.091889 126.1763
+*
+Title:Delta:H(6)C(6)O(1) (K)
+Hidden 
+Residues:K 222.136828 222.2835
+*
+Title:Delta:H(8)C(6)O(2) (K)
+Hidden 
+Residues:K 240.147393 240.2988
+*
+Title:Delta:Hg(1) (C)
+Hidden 
+Residues:C 304.979802 303.7329
+*
+Title:Delta:S(-1)Se(1) (C)
+Hidden 
+Residues:C 150.953634 150.0379
+*
+Title:Delta:S(-1)Se(1) (M)
+Hidden 
+Residues:M 178.984934 178.0911
+*
+Title:Delta:Se(1) (C)
+Hidden 
+Residues:C 182.925705 182.1029
+*
+Title:Deoxy (D)
+Hidden 
+Residues:D 99.032028 99.0880
+*
+Title:Deoxy (S)
+Hidden 
+Residues:S 71.037113 71.0779
+*
+Title:Deoxy (T)
+Hidden 
+Residues:T 85.052764 85.1045
+*
+Title:DeStreak (C)
+Hidden 
+Residues:C 179.007470 179.2605
+*
+Title:Dethiomethyl (M)
+Hidden 
+Residues:M 83.037114 83.0886
+*
+Title:dHex (S)
+Hidden 
+Residues:S 233.089937 233.2185
+*
+Title:dHex (T)
+Hidden 
+Residues:T 247.105588 247.2451
+*
+Title:dHex(1)Hex(3)HexNAc(4) (N)
+Hidden 
+Residues:N 1558.576797 1559.4357
+*
+Title:dHex(1)Hex(4)HexNAc(4) (N)
+Hidden 
+Residues:N 1720.629620 1721.5763
+*
+Title:dHex(1)Hex(5)HexNAc(4) (N)
+Hidden 
+Residues:N 1882.682444 1883.7169
+*
+Title:DHP (C)
+Hidden 
+Residues:C 221.074859 221.2987
+*
+Title:Diacylglycerol (C)
+Hidden 
+Residues:C 679.520946 680.0763
+*
+Title:Dibromo (Y)
+Hidden 
+Residues:Y 318.884351 320.9654
+*
+Title:Didehydro (S)
+Hidden 
+Residues:S 85.016378 85.0614
+*
+Title:Didehydro (T)
+Hidden 
+Residues:T 99.032029 99.0880
+*
+Title:Didehydro (Y)
+Hidden 
+Residues:Y 161.047679 161.1574
+*
+Title:Didehydroretinylidene (K)
+Hidden 
+Residues:K 392.282764 392.5769
+*
+Title:Diethyl (K)
+Hidden 
+Residues:K 184.157563 184.2786
+*
+Title:Diethyl (N-term)
+Hidden 
+Nterm:57.070425 57.1142
+*
+Title:Diiodo (Y)
+Hidden 
+Residues:Y 414.856625 414.9664
+*
+Title:Diironsubcluster (C)
+Hidden 
+Residues:C 445.796101 446.0189
+*
+Title:Diisopropylphosphate (S)
+Hidden 
+Residues:S 251.092259 251.2167
+*
+Title:Diisopropylphosphate (T)
+Hidden 
+Residues:T 265.107910 265.2433
+*
+Title:Diisopropylphosphate (Y)
+Hidden 
+Residues:Y 327.123560 327.3127
+*
+Title:Dimethyl (K)
+Hidden 
+Residues:K 156.126263 156.2255
+*
+Title:Dimethyl (N)
+Hidden 
+Residues:N 142.074227 142.1558
+*
+Title:Dimethyl (N-term)
+Hidden 
+Nterm:29.039125 29.0611
+*
+Title:Dimethyl (Protein N-term P)
+Hidden 
+ResiduesProteinNterm:P 29.039125 29.0611
+*
+Title:Dimethyl (R)
+Hidden 
+Residues:R 184.132411 184.2389
+*
+Title:Dimethyl0 (KR)
+Residues:K 156.126263 156.2255
+Residues:R 184.132411 184.2389
+*
+Title:Dimethyl:2H(4) (K)
+Hidden 
+Residues:K 160.151370 160.2501
+*
+Title:Dimethyl:2H(4) (N-term)
+Hidden 
+Nterm:33.064232 33.0857
+*
+Title:Dimethyl:2H(4) (Protein N-term)
+Hidden 
+ProteinNterm:33.064232 33.0857
+*
+Title:Dimethyl:2H(4)13C(2) (K)
+Hidden 
+Residues:K 162.158080 162.2354
+*
+Title:Dimethyl:2H(4)13C(2) (N-term)
+Hidden 
+Nterm:35.070942 35.0710
+*
+Title:Dimethyl:2H(6)13C(2) (R)
+Hidden 
+Residues:R 192.176781 192.2611
+*
+Title:DimethylpyrroleAdduct (K)
+Hidden 
+Residues:K 206.141913 206.2841
+*
+Title:Dioxidation (C)
+Hidden 
+Residues:C 134.999014 135.1417
+*
+Title:Dioxidation (F)
+Hidden 
+Residues:F 179.058243 179.1727
+*
+Title:Dioxidation (K)
+Hidden 
+Residues:K 160.084792 160.1711
+*
+Title:Dioxidation (M)
+Residues:M 163.030314 163.1949
+*
+Title:Dioxidation (P)
+Hidden 
+Residues:P 129.042593 129.1140
+*
+Title:Dioxidation (R)
+Hidden 
+Residues:R 188.090940 188.1845
+*
+Title:Dioxidation (W)
+Hidden 
+Residues:W 218.069142 218.2087
+*
+Title:Dioxidation (Y)
+Hidden 
+Residues:Y 195.053158 195.1721
+*
+Title:Diphthamide (H)
+Hidden 
+Residues:H 280.177350 280.3461
+*
+Title:Dipyrrolylmethanemethyl (C)
+Hidden 
+Residues:C 521.146801 521.5402
+*
+Title:dNIC (N-term)
+Hidden 
+Nterm:110.055944 110.1284
+*
+Title:DTBP (K)
+Hidden 
+Residues:K 215.109233 215.3158
+*
+Title:DTBP (N)
+Hidden 
+Residues:N 201.057197 201.2461
+*
+Title:DTBP (Protein N-term)
+Hidden 
+ProteinNterm:88.022095 88.1514
+*
+Title:DTBP (Q)
+Hidden 
+Residues:Q 215.072848 215.2727
+*
+Title:DTBP (R)
+Hidden 
+Residues:R 243.115381 243.3292
+*
+Title:DTDP (C)
+Residues:C 212.007805 212.2919
+*
+Title:DTT_C (C)
+Hidden 
+Residues:C 223.033685 223.3130
+*
+Title:DTT_ST (S)
+Hidden 
+Residues:S 223.033684 223.3130
+*
+Title:DTT_ST (T)
+Hidden 
+Residues:T 237.049335 237.3396
+*
+Title:EDT-iodoacetyl-PEO-biotin (S)
+Hidden 
+Residues:S 577.206246 577.7807
+*
+Title:EDT-iodoacetyl-PEO-biotin (T)
+Hidden 
+Residues:T 591.221897 591.8073
+*
+Title:EDT-maleimide-PEO-biotin (S)
+Hidden 
+Residues:S 688.238274 688.8794
+*
+Title:EDT-maleimide-PEO-biotin (T)
+Hidden 
+Residues:T 702.253925 702.9060
+*
+Title:EQAT (C)
+Hidden 
+Residues:C 287.166748 287.4215
+*
+Title:EQAT:2H(5) (C)
+Hidden 
+Residues:C 292.198132 292.4523
+*
+Title:ESP (K)
+Hidden 
+Residues:K 466.272610 466.6405
+*
+Title:ESP (N-term)
+Hidden 
+Nterm:339.185472 339.4761
+*
+Title:ESP:2H(10) (K)
+Hidden 
+Residues:K 476.335377 476.7022
+*
+Title:ESP:2H(10) (N-term)
+Hidden 
+Nterm:349.248239 349.5378
+*
+Title:Ethanedithiol (S)
+Hidden 
+Residues:S 163.012555 163.2611
+*
+Title:Ethanedithiol (T)
+Hidden 
+Residues:T 177.028206 177.2877
+*
+Title:Ethanolamine (C-term)
+Hidden 
+Cterm:60.044939 60.0751
+*
+Title:Ethanolamine (D)
+Hidden 
+Residues:D 158.069142 158.1552
+*
+Title:Ethanolamine (E)
+Hidden 
+Residues:E 172.084792 172.1818
+*
+Title:Ethanolyl (C)
+Residues:C 147.035400 147.1955
+*
+Title:Ethyl (E)
+Hidden 
+Residues:E 157.073893 157.1672
+*
+Title:Ethyl (K)
+Hidden 
+Residues:K 156.126263 156.2255
+*
+Title:Ethyl (N-term)
+Hidden 
+Nterm:29.039125 29.0611
+*
+Title:Ethyl (Protein N-term)
+Hidden 
+ProteinNterm:29.039125 29.0611
+*
+Title:ExacTagAmine (K)
+Residues:K 1158.447903 1159.0014
+*
+Title:ExacTagThiol (C)
+Residues:C 1075.374404 1075.8697
+*
+Title:FAD (C)
+Hidden 
+Residues:C 886.150671 886.6768
+*
+Title:FAD (H)
+Hidden 
+Residues:H 920.200398 920.6732
+*
+Title:FAD (Y)
+Hidden 
+Residues:Y 946.204815 946.7072
+*
+Title:Farnesyl (C)
+Hidden 
+Residues:C 307.196986 307.4940
+*
+Title:Fluorescein (C)
+Hidden 
+Residues:C 491.091297 491.4926
+*
+Title:Fluoro (F)
+Hidden 
+Residues:F 165.058992 165.1644
+*
+Title:FMN (S)
+Hidden 
+Residues:S 525.126079 525.4058
+*
+Title:FMN (T)
+Hidden 
+Residues:T 539.141730 539.4324
+*
+Title:FMNC (C)
+Hidden 
+Residues:C 559.113800 559.4867
+*
+Title:FMNH (C)
+Hidden 
+Residues:C 557.098150 557.4708
+*
+Title:FMNH (H)
+Hidden 
+Residues:H 591.147877 591.4672
+*
+Title:FNEM (C)
+Hidden 
+Residues:C 530.078387 530.5054
+*
+Title:Formyl (K)
+Residues:K 156.089878 156.1824
+*
+Title:Formyl (N-term)
+Nterm:29.002740 29.0180
+*
+Title:Formyl (Protein N-term)
+ProteinNterm:29.002740 29.0180
+*
+Title:Formyl (S)
+Hidden 
+Residues:S 115.026943 115.0874
+*
+Title:Formyl (T)
+Hidden 
+Residues:T 129.042594 129.1140
+*
+Title:FormylMet (Protein N-term)
+Hidden 
+ProteinNterm:160.043224 160.2141
+*
+Title:FP-Biotin (S)
+Hidden 
+Residues:S 659.348157 659.8178
+*
+Title:FP-Biotin (T)
+Hidden 
+Residues:T 673.363808 673.8444
+*
+Title:FP-Biotin (Y)
+Hidden 
+Residues:Y 735.379458 735.9138
+*
+Title:FTC (C)
+Hidden 
+Residues:C 524.082426 524.5688
+*
+Title:FTC (K)
+Hidden 
+Residues:K 549.168204 549.5982
+*
+Title:FTC (P)
+Hidden 
+Residues:P 518.126005 518.5411
+*
+Title:FTC (R)
+Hidden 
+Residues:R 577.174352 577.6116
+*
+Title:FTC (S)
+Hidden 
+Residues:S 508.105269 508.5032
+*
+Title:GeranylGeranyl (C)
+Hidden 
+Residues:C 375.259586 375.6110
+*
+Title:GIST-Quat (K)
+Hidden 
+NeutralLoss:59.073499 59.1103 0
+Residues:K 255.194677 255.3565
+*
+Title:GIST-Quat (N-term)
+Hidden 
+NeutralLoss:59.073499 59.1103 0
+Nterm:128.107539 128.1921
+*
+Title:GIST-Quat:2H(3) (K)
+Hidden 
+NeutralLoss:62.092330 62.1287 0
+Residues:K 258.213507 258.3750
+*
+Title:GIST-Quat:2H(3) (N-term)
+Hidden 
+NeutralLoss:62.092330 62.1287 0
+Nterm:131.126369 131.2106
+*
+Title:GIST-Quat:2H(6) (K)
+Hidden 
+NeutralLoss:65.111160 65.1472 0
+Residues:K 261.232338 261.3935
+*
+Title:GIST-Quat:2H(6) (N-term)
+Hidden 
+NeutralLoss:65.111160 65.1472 0
+Nterm:134.145200 134.2291
+*
+Title:GIST-Quat:2H(9) (K)
+Hidden 
+NeutralLoss:68.129990 68.1657 0
+Residues:K 264.251168 264.4120
+*
+Title:GIST-Quat:2H(9) (N-term)
+Hidden 
+NeutralLoss:68.129990 68.1657 0
+Nterm:137.164030 137.2476
+*
+Title:Gln->pyro-Glu (N-term Q)
+ResiduesNterm:Q -16.018724 -16.0226
+*
+Title:Glu (E)
+Hidden 
+Residues:E 258.085186 258.2280
+*
+Title:Glu (Protein C-term)
+Hidden 
+ProteinCterm:146.045333 146.1213
+*
+Title:Glu->pyro-Glu (N-term E)
+ResiduesNterm:E -17.002740 -17.0074
+*
+Title:Glucosylgalactosyl (K)
+Hidden 
+Residues:K 468.195525 468.4529
+*
+Title:Glucuronyl (Protein N-term)
+Hidden 
+ProteinNterm:177.039913 177.1320
+*
+Title:Glucuronyl (S)
+Hidden 
+Residues:S 263.064116 263.2014
+*
+Title:GluGlu (E)
+Hidden 
+Residues:E 387.127779 387.3420
+*
+Title:GluGlu (Protein C-term)
+Hidden 
+ProteinCterm:275.087926 275.2353
+*
+Title:GluGluGlu (E)
+Hidden 
+Residues:E 516.170372 516.4559
+*
+Title:GluGluGlu (Protein C-term)
+Hidden 
+ProteinCterm:404.130519 404.3492
+*
+Title:GluGluGluGlu (E)
+Hidden 
+Residues:E 645.212966 645.5699
+*
+Title:GluGluGluGlu (Protein C-term)
+Hidden 
+ProteinCterm:533.173113 533.4632
+*
+Title:Glutathione (C)
+Hidden 
+Residues:C 408.077341 408.4505
+*
+Title:Glycerophospho (S)
+Hidden 
+Residues:S 241.035138 241.1357
+*
+Title:GlycerylPE (E)
+Hidden 
+Residues:E 326.087903 326.2402
+*
+Title:Glycosyl (P)
+Hidden 
+Residues:P 245.089937 245.2292
+*
+Title:GlyGly (K)
+Residues:K 242.137890 242.2749
+*
+Title:GlyGlyTerm (C-term)
+Cterm:131.045667 131.1099
+*
+Title:GlyGlyTerm (N-term)
+Nterm:115.050752 115.1105
+*
+Title:GPIanchor (Protein C-term)
+Hidden 
+ProteinCterm:140.011270 140.0550
+*
+Title:Guanidinyl (K)
+Residues:K 170.116761 170.2123
+*
+Title:Heme (C)
+Hidden 
+Residues:C 719.186480 719.6302
+*
+Title:Heme (H)
+Hidden 
+Residues:H 753.236207 753.6266
+*
+Title:Hep (K)
+Hidden 
+Residues:K 320.158351 320.3389
+*
+Title:Hep (N)
+Hidden 
+Residues:N 306.106315 306.2692
+*
+Title:Hep (Q)
+Hidden 
+Residues:Q 320.121966 320.2958
+*
+Title:Hep (R)
+Hidden 
+Residues:R 348.164499 348.3523
+*
+Title:Hep (S)
+Hidden 
+Residues:S 279.095416 279.2439
+*
+Title:Hep (T)
+Hidden 
+Residues:T 293.111067 293.2705
+*
+Title:Hex (C)
+Hidden 
+Residues:C 265.062009 265.2835
+*
+Title:Hex (K)
+Hidden 
+Residues:K 290.147787 290.3129
+*
+Title:Hex (N)
+Hidden 
+Residues:N 276.095751 276.2432
+*
+Title:Hex (N-term)
+Hidden 
+Nterm:163.060649 163.1485
+*
+Title:Hex (R)
+Hidden 
+Residues:R 318.153935 318.3263
+*
+Title:Hex (T)
+Hidden 
+Residues:T 263.100503 263.2445
+*
+Title:Hex (W)
+Hidden 
+Residues:W 348.132137 348.3505
+*
+Title:Hex (Y)
+Hidden 
+Residues:Y 325.116153 325.3139
+*
+Title:Hex(1)HexNAc(1)dHex(1) (N)
+Hidden 
+Residues:N 625.233032 625.5769
+*
+Title:Hex(1)HexNAc(1)NeuAc(1) (N)
+Hidden 
+Residues:N 770.270540 770.6903
+*
+Title:Hex(1)HexNAc(1)NeuAc(2) (N)
+Hidden 
+Residues:N 1061.365956 1061.9449
+*
+Title:Hex(1)HexNAc(2) (N)
+Hidden 
+Residues:N 682.254496 682.6282
+*
+Title:Hex(1)HexNAc(2)dHex(1) (N)
+Hidden 
+Residues:N 828.312405 828.7694
+*
+Title:Hex(1)HexNAc(2)dHex(1)Pent(1) (N)
+Hidden 
+Residues:N 960.354663 960.8841
+*
+Title:Hex(1)HexNAc(2)dHex(2) (N)
+Hidden 
+Residues:N 974.370313 974.9106
+*
+Title:Hex(1)HexNAc(2)Pent(1) (N)
+Hidden 
+Residues:N 814.296755 814.7429
+*
+Title:Hex(2) (K)
+Hidden 
+Residues:K 452.200610 452.4535
+*
+Title:Hex(2) (R)
+Hidden 
+Residues:R 480.206758 480.4669
+*
+Title:Hex(2)HexNAc(2) (N)
+Hidden 
+Residues:N 844.307319 844.7688
+*
+Title:Hex(2)HexNAc(2)dHex(1) (N)
+Hidden 
+Residues:N 990.365228 990.9100
+*
+Title:Hex(2)HexNAc(2)Pent(1) (N)
+Hidden 
+Residues:N 976.349578 976.8835
+*
+Title:Hex(3) (N)
+Hidden 
+Residues:N 600.201398 600.5244
+*
+Title:Hex(3)HexNAc(1)Pent(1) (N)
+Hidden 
+Residues:N 935.323029 935.8315
+*
+Title:Hex(3)HexNAc(2) (N)
+Hidden 
+Residues:N 1006.360143 1006.9094
+*
+Title:Hex(3)HexNAc(2)P(1) (N)
+Hidden 
+Residues:N 1037.333905 1037.8832
+*
+Title:Hex(3)HexNAc(4) (N)
+Hidden 
+Residues:N 1412.518888 1413.2945
+*
+Title:Hex(4)HexNAc(4) (N)
+Hidden 
+Residues:N 1574.571711 1575.4351
+*
+Title:Hex(5)HexNAc(2) (N)
+Hidden 
+Residues:N 1330.465790 1331.1906
+*
+Title:Hex(5)HexNAc(4) (N)
+Hidden 
+Residues:N 1736.624535 1737.5757
+*
+Title:HexN (K)
+Hidden 
+Residues:K 289.163771 289.3281
+*
+Title:HexN (N)
+Hidden 
+Residues:N 275.111735 275.2584
+*
+Title:HexN (T)
+Hidden 
+Residues:T 262.116487 262.2597
+*
+Title:HexN (W)
+Hidden 
+Residues:W 347.148121 347.3657
+*
+Title:HexNAc (N)
+Hidden 
+Residues:N 317.122300 317.2951
+*
+Title:HexNAc (S)
+Hidden 
+Residues:S 290.111401 290.2698
+*
+Title:HexNAc (T)
+Hidden 
+Residues:T 304.127052 304.2964
+*
+Title:HexNAc(1)dHex(1) (N)
+Hidden 
+Residues:N 463.180208 463.4363
+*
+Title:HexNAc(1)dHex(2) (N)
+Hidden 
+Residues:N 609.238117 609.5775
+*
+Title:HexNAc(2) (N)
+Hidden 
+Residues:N 520.201672 520.4876
+*
+Title:HexNAc(2)dHex(1) (N)
+Hidden 
+Residues:N 666.259581 666.6288
+*
+Title:HexNAc(2)dHex(2) (N)
+Hidden 
+Residues:N 812.317490 812.7700
+*
+Title:His->Asn (H)
+Hidden 
+Residues:H 114.042928 114.1027
+*
+Title:His->Asp (H)
+Hidden 
+Residues:H 115.026943 115.0874
+*
+Title:HMVK (C)
+Hidden 
+Residues:C 189.045964 189.2321
+*
+Title:HNE (CHK)
+Hidden 
+Residues:C 259.124215 259.3650
+Residues:H 293.173942 293.3614
+Residues:K 284.209993 284.3944
+*
+Title:HNE+Delta:H(2) (C)
+Hidden 
+Residues:C 261.139865 261.3809
+*
+Title:HNE+Delta:H(2) (H)
+Hidden 
+Residues:H 295.189592 295.3773
+*
+Title:HNE+Delta:H(2) (K)
+Hidden 
+Residues:K 286.225643 286.4103
+*
+Title:HNE-Delta:H(2)O (C)
+Hidden 
+Residues:C 241.113650 241.3498
+*
+Title:HNE-Delta:H(2)O (H)
+Hidden 
+Residues:H 275.163377 275.3462
+*
+Title:HNE-Delta:H(2)O (K)
+Hidden 
+Residues:K 266.199428 266.3792
+*
+Title:HPG (R)
+Hidden 
+Residues:R 288.122240 288.3019
+*
+Title:Hydroxycinnamyl (C)
+Hidden 
+Residues:C 249.045964 249.2856
+*
+Title:Hydroxyfarnesyl (C)
+Hidden 
+Residues:C 323.191900 323.4934
+*
+Title:Hydroxyheme (E)
+Hidden 
+Residues:E 743.204238 743.5854
+*
+Title:Hydroxylation (C)
+Hidden 
+Residues:C 119.004100 119.1423
+*
+Title:Hydroxylation (D)
+Hidden 
+Residues:D 131.021858 131.0868
+*
+Title:Hydroxylation (F)
+Hidden 
+Residues:F 163.063329 163.1733
+*
+Title:Hydroxylation (HW)
+Hidden 
+Residues:H 153.053827 153.1387
+Residues:W 202.074228 202.2093
+*
+Title:Hydroxylation (K)
+Hidden 
+Residues:K 144.089878 144.1717
+*
+Title:Hydroxylation (M)
+Hidden 
+NeutralLoss:63.998285 64.1069 0
+NeutralLoss:0.000000 0.0000 0
+Residues:M 147.035400 147.1955
+*
+Title:Hydroxylation (N)
+Hidden 
+Residues:N 130.037842 130.1020
+*
+Title:Hydroxylation (P)
+Residues:P 113.047679 113.1146
+*
+Title:Hydroxylation (R)
+Hidden 
+Residues:R 172.096026 172.1851
+*
+Title:Hydroxylation (Y)
+Hidden 
+Residues:Y 179.058244 179.1727
+*
+Title:Hydroxymethyl (N)
+Hidden 
+Residues:N 144.053492 144.1286
+*
+Title:Hydroxymethyl(A->T) (A)
+Residues:A 101.047679 101.1039
+*
+Title:Hydroxytrimethyl (K)
+Hidden 
+Residues:K 187.144653 187.2594
+*
+Title:Hypusine (K)
+Hidden 
+Residues:K 215.163377 215.2927
+*
+Title:IBTP (C)
+Hidden 
+Residues:C 419.147273 419.5188
+*
+Title:ICAT-C (C)
+Residues:C 330.136176 330.4032
+*
+Title:ICAT-C:13C(9) (C)
+Residues:C 339.166370 339.3371
+*
+Title:ICAT-D (C)
+Hidden 
+Ignore: 227.085423 227.3033
+Ignore: 284.143273 284.3977
+Ignore: 328.169488 328.4502
+Ignore: 403.237901 403.5599
+Ignore: 477.220537 477.6616
+Ignore: 501.220537 501.6830
+Residues:C 545.234176 545.7157
+*
+Title:ICAT-D:2H(8) (C)
+Hidden 
+Ignore: 227.085423 227.3033
+Ignore: 288.168380 288.4223
+Ignore: 332.194594 332.4749
+Ignore: 411.288115 411.6092
+Ignore: 485.270751 485.7109
+Ignore: 509.270751 509.7323
+Residues:C 553.284390 553.7650
+*
+Title:ICAT-G (C)
+Hidden 
+Residues:C 589.260391 589.7682
+*
+Title:ICAT-G:2H(8) (C)
+Hidden 
+Residues:C 597.310605 597.8175
+*
+Title:ICAT-H (C)
+Hidden 
+Residues:C 448.107100 448.9183
+*
+Title:ICAT-H:13C(6) (C)
+Hidden 
+Residues:C 454.127229 454.8742
+*
+Title:ICPL (K)
+Residues:K 233.116427 233.2664
+*
+Title:ICPL (N-term)
+Hidden 
+Nterm:106.029289 106.1020
+*
+Title:ICPL (Protein N-term)
+ProteinNterm:106.029289 106.1020
+*
+Title:ICPL:13C(6) (K)
+Residues:K 239.136556 239.2223
+*
+Title:ICPL:13C(6) (N-term)
+Hidden 
+Nterm:112.049418 112.0579
+*
+Title:ICPL:13C(6) (Protein N-term)
+ProteinNterm:112.049418 112.0579
+*
+Title:ICPL:2H(4) (K)
+Residues:K 237.141534 237.2911
+*
+Title:ICPL:2H(4) (N-term)
+Hidden 
+Nterm:110.054396 110.1267
+*
+Title:ICPL:2H(4) (Protein N-term)
+ProteinNterm:110.054396 110.1267
+*
+Title:IED-Biotin (C)
+Hidden 
+Residues:C 429.150446 429.5574
+*
+Title:IGBP (C)
+Hidden 
+Residues:C 399.025224 400.2907
+*
+Title:IGBP:13C(2) (C)
+Hidden 
+Residues:C 401.031933 402.2760
+*
+Title:IMID (K)
+Hidden 
+Residues:K 196.132411 196.2496
+*
+Title:IMID:2H(4) (K)
+Hidden 
+Residues:K 200.157518 200.2742
+*
+Title:Iminobiotin (K)
+Hidden 
+Residues:K 353.188546 353.4829
+*
+Title:Iminobiotin (N-term)
+Hidden 
+Nterm:226.101408 226.3185
+*
+Title:Iodo (H)
+Hidden 
+Residues:H 262.955560 263.0358
+*
+Title:Iodo (Y)
+Hidden 
+Residues:Y 288.959977 289.0698
+*
+Title:IodoU-AMP (F)
+Hidden 
+Residues:F 469.088631 469.3393
+*
+Title:IodoU-AMP (W)
+Hidden 
+Residues:W 508.099530 508.3753
+*
+Title:IodoU-AMP (Y)
+Hidden 
+Residues:Y 485.083546 485.3387
+*
+Title:Isopropylphospho (S)
+Hidden 
+Residues:S 209.045309 209.1369
+*
+Title:Isopropylphospho (T)
+Hidden 
+Residues:T 223.060960 223.1635
+*
+Title:Isopropylphospho (Y)
+Hidden 
+Residues:Y 285.076610 285.2329
+*
+Title:iTRAQ4plex (K)
+Residues:K 272.197026 272.3267
+*
+Title:iTRAQ4plex (N-term)
+Nterm:145.109888 145.1623
+*
+Title:iTRAQ4plex (Y)
+Residues:Y 307.165392 307.3277
+*
+Title:iTRAQ4plex114 (K)
+Hidden 
+Residues:K 272.200881 272.3403
+*
+Title:iTRAQ4plex114 (N-term)
+Hidden 
+Nterm:145.113743 145.1759
+*
+Title:iTRAQ4plex114 (Y)
+Hidden 
+Residues:Y 307.169247 307.3413
+*
+Title:iTRAQ4plex115 (K)
+Hidden 
+Residues:K 272.194562 272.3411
+*
+Title:iTRAQ4plex115 (N-term)
+Hidden 
+Nterm:145.107424 145.1767
+*
+Title:iTRAQ4plex115 (Y)
+Hidden 
+Residues:Y 307.162928 307.3421
+*
+Title:iTRAQ8plex (K)
+Residues:K 432.300323 432.4797
+*
+Title:iTRAQ8plex (N-term)
+Nterm:305.213185 305.3153
+*
+Title:iTRAQ8plex (Y)
+Residues:Y 467.268689 467.4807
+*
+Title:iTRAQ8plex:13C(6)15N(2) (K)
+Hidden 
+Residues:K 432.294003 432.4804
+*
+Title:iTRAQ8plex:13C(6)15N(2) (N-term)
+Hidden 
+Nterm:305.206865 305.3160
+*
+Title:iTRAQ8plex:13C(6)15N(2) (Y)
+Hidden 
+Residues:Y 467.262369 467.4814
+*
+Title:Label:13C(5)15N(1) (V)
+Hidden 
+Residues:V 105.082223 105.0878
+*
+Title:Label:13C(6) (F)
+Hidden 
+Residues:F 153.088543 153.1298
+*
+Title:Label:13C(6) (I)
+Hidden 
+Residues:I 119.104193 119.1135
+*
+Title:Label:13C(6) (K)
+Hidden 
+Residues:K 134.115092 134.1282
+*
+Title:Label:13C(6) (L)
+Hidden 
+Residues:L 119.104193 119.1135
+*
+Title:Label:13C(6) (R)
+Hidden 
+Residues:R 162.121240 162.1416
+*
+Title:Label:13C(6)15N(1) (L)
+Hidden 
+Residues:L 120.101228 120.1069
+*
+Title:Label:13C(6)15N(2) (K)
+Hidden 
+Residues:K 136.109162 136.1150
+*
+Title:Label:13C(6)15N(4) (R)
+Hidden 
+Residues:R 166.109380 166.1153
+*
+Title:Label:13C(9) (Y)
+Hidden 
+Residues:Y 172.093522 172.1072
+*
+Title:Label:13C(9)+Phospho (Y)
+Hidden 
+Residues:Y 252.059853 252.0871
+*
+Title:Label:13C(9)15N(1) (F)
+Hidden 
+Residues:F 157.095642 157.1012
+*
+Title:Label:18O(1) (C-term)
+Cterm:19.006986 19.0071
+*
+Title:Label:18O(1) (S)
+Hidden 
+Residues:S 89.036274 89.0771
+*
+Title:Label:18O(1) (T)
+Hidden 
+Residues:T 103.051925 103.1037
+*
+Title:Label:18O(1) (Y)
+Hidden 
+Residues:Y 165.067575 165.1731
+*
+Title:Label:18O(2) (C-term)
+Cterm:21.011231 21.0068
+*
+Title:Label:2H(3) (L)
+Hidden 
+Residues:L 116.102894 116.1761
+*
+Title:Label:2H(4) (K)
+Hidden 
+Residues:K 132.120070 132.1969
+*
+Title:Label:2H(9)13C(6)15N(2) (K)
+Hidden 
+Residues:K 145.165653 145.1705
+*
+Title:LeuArgGlyGly (K)
+Hidden 
+Residues:K 511.323066 511.6183
+*
+Title:Leucin-13C6 (L-13C6) (L)
+Residues:L 119.104193 119.1135
+*
+Title:Leucine (D3) (L)
+Residues:L 116.102894 116.1761
+*
+Title:LG-Hlactam-K (K)
+Hidden 
+Residues:K 476.288637 476.6056
+*
+Title:LG-Hlactam-K (Protein N-term)
+Hidden 
+ProteinNterm:349.201499 349.4412
+*
+Title:LG-Hlactam-R (R)
+Hidden 
+Residues:R 462.272987 462.5790
+*
+Title:LG-lactam-K (K)
+Hidden 
+Residues:K 460.293723 460.6062
+*
+Title:LG-lactam-K (Protein N-term)
+Hidden 
+ProteinNterm:333.206585 333.4418
+*
+Title:LG-lactam-R (R)
+Hidden 
+Residues:R 446.278072 446.5796
+*
+Title:Lipoyl (K)
+Hidden 
+Residues:K 316.127919 316.4826
+*
+Title:Lys->Allysine (K)
+Hidden 
+Residues:K 127.063329 127.1412
+*
+Title:Lys->AminoadipicAcid (K)
+Hidden 
+Residues:K 143.058243 143.1406
+*
+Title:Lys-loss (Protein C-term K)
+Hidden 
+ResiduesProteinCterm:K -111.092223 -111.1650
+*
+Title:Lysbiotinhydrazide (K)
+Hidden 
+Residues:K 369.183460 369.4823
+*
+Title:Lysine (D4) (K)
+Residues:K 132.120070 132.1969
+*
+Title:Lysine-13C6 (K-13C6) (K)
+Residues:K 134.115092 134.1282
+*
+Title:Lysine-13C615N2 (K-full) (K)
+Residues:K 136.109162 136.1150
+*
+Title:Maleimide-PEO2-Biotin (C)
+Hidden 
+Residues:C 628.234904 628.7612
+*
+Title:Menadione (C)
+Hidden 
+Residues:C 273.045964 273.3070
+*
+Title:Menadione (K)
+Hidden 
+Residues:K 298.131742 298.3364
+*
+Title:Met->Hse (C-term M)
+ResiduesCterm:M -12.990066 -13.0849
+*
+Title:Met->Hsl (C-term M)
+ResiduesCterm:M -31.000631 -31.1002
+*
+Title:Methyl (C)
+Hidden 
+Residues:C 117.024835 117.1695
+*
+Title:Methyl (C-term)
+Cterm:31.018390 31.0339
+*
+Title:Methyl (DE)
+Residues:D 129.042593 129.1140
+Residues:E 143.058243 143.1406
+*
+Title:Methyl (H)
+Hidden 
+Residues:H 151.074562 151.1659
+*
+Title:Methyl (I)
+Hidden 
+Residues:I 127.099714 127.1842
+*
+Title:Methyl (K)
+Hidden 
+Residues:K 142.110613 142.1989
+*
+Title:Methyl (L)
+Hidden 
+Residues:L 127.099714 127.1842
+*
+Title:Methyl (N)
+Hidden 
+Residues:N 128.058577 128.1292
+*
+Title:Methyl (N-term)
+Hidden 
+Nterm:15.023475 15.0345
+*
+Title:Methyl (Protein N-term)
+Hidden 
+ProteinNterm:15.023475 15.0345
+*
+Title:Methyl (Q)
+Hidden 
+Residues:Q 142.074228 142.1558
+*
+Title:Methyl (R)
+Hidden 
+Residues:R 170.116761 170.2123
+*
+Title:Methyl (S)
+Hidden 
+Residues:S 101.047678 101.1039
+*
+Title:Methyl (T)
+Hidden 
+Residues:T 115.063329 115.1305
+*
+Title:Methyl+Deamidated (N)
+Hidden 
+Residues:N 129.042593 129.1139
+*
+Title:Methyl+Deamidated (Q)
+Hidden 
+Residues:Q 143.058244 143.1405
+*
+Title:Methyl:2H(2) (K)
+Hidden 
+Residues:K 144.123167 144.2112
+*
+Title:Methyl:2H(3) (C-term)
+Hidden 
+Cterm:34.037220 34.0524
+*
+Title:Methyl:2H(3) (D)
+Hidden 
+Residues:D 132.061423 132.1325
+*
+Title:Methyl:2H(3) (E)
+Hidden 
+Residues:E 146.077073 146.1591
+*
+Title:Methyl:2H(3)13C(1) (R)
+Hidden 
+Residues:R 174.138946 174.2234
+*
+Title:Methylamine (S)
+Hidden 
+Residues:S 100.063662 100.1191
+*
+Title:Methylamine (T)
+Hidden 
+Residues:T 114.079313 114.1457
+*
+Title:Methylphosphonate (S)
+Hidden 
+Residues:S 165.019094 165.0844
+*
+Title:Methylphosphonate (T)
+Hidden 
+Residues:T 179.034745 179.1110
+*
+Title:Methylphosphonate (Y)
+Hidden 
+Residues:Y 241.050395 241.1804
+*
+Title:Methylpyrroline (K)
+Hidden 
+Residues:K 237.147727 237.2982
+*
+Title:Methylthio (C)
+Residues:C 148.996906 149.2345
+*
+Title:Methylthio (D)
+Hidden 
+Residues:D 161.014664 161.1790
+*
+Title:Methylthio (N)
+Hidden 
+Residues:N 160.030648 160.1942
+*
+Title:Microcin (Protein C-term)
+Hidden 
+ProteinCterm:848.199781 848.6944
+*
+Title:MicrocinC7 (Protein C-term)
+Hidden 
+ProteinCterm:403.113109 403.3076
+*
+Title:Molybdopterin (C)
+Hidden 
+Residues:C 624.893258 623.4097
+*
+Title:MolybdopterinGD (C)
+Hidden 
+Residues:C 1675.994960 1675.1575
+*
+Title:MolybdopterinGD (D)
+Hidden 
+Residues:D 1688.012718 1687.1020
+*
+Title:MolybdopterinGD+Delta:S(-1)Se(1) (C)
+Hidden 
+Residues:C 1723.939409 1722.0525
+*
+Title:MonoMethyl0 (KR)
+Residues:K 142.110613 142.1989
+Residues:R 170.116761 170.2123
+*
+Title:Myristoleyl (Protein N-term G)
+Hidden 
+ResiduesProteinNterm:G 209.190540 209.3477
+*
+Title:Myristoyl (C)
+Hidden 
+Residues:C 313.207551 313.4985
+*
+Title:Myristoyl (K)
+Hidden 
+Residues:K 338.293329 338.5279
+*
+Title:Myristoyl (N-term G)
+Hidden 
+ResiduesNterm:G 211.206191 211.3635
+*
+Title:Myristoyl+Delta:H(-4) (Protein N-term G)
+Hidden 
+ResiduesProteinNterm:G 207.174890 207.3318
+*
+Title:NA-LNO2 (C)
+Hidden 
+Residues:C 428.234494 428.5859
+*
+Title:NA-LNO2 (H)
+Hidden 
+Residues:H 462.284221 462.5823
+*
+Title:NA-OA-NO2 (C)
+Hidden 
+Residues:C 430.250144 430.6018
+*
+Title:NA-OA-NO2 (H)
+Hidden 
+Residues:H 464.299871 464.5982
+*
+Title:NDA (K)
+Hidden 
+Residues:K 303.137162 303.3578
+*
+Title:NDA (N-term)
+Hidden 
+Nterm:176.050024 176.1934
+*
+Title:NEIAA (C)
+Hidden 
+Residues:C 188.061949 188.2474
+*
+Title:NEIAA (Y)
+Hidden 
+Residues:Y 248.116093 248.2778
+*
+Title:NEIAA:2H(5) (C)
+Hidden 
+Residues:C 193.093333 193.2782
+*
+Title:NEIAA:2H(5) (Y)
+Hidden 
+Residues:Y 253.147477 253.3086
+*
+Title:Nethylmaleimide (C)
+Hidden 
+Residues:C 228.056864 228.2682
+*
+Title:Nethylmaleimide+water (C)
+Hidden 
+Residues:C 246.067428 246.2835
+*
+Title:Nethylmaleimide+water (K)
+Hidden 
+Residues:K 271.153206 271.3129
+*
+Title:NHS-LC-Biotin (K)
+Hidden 
+Residues:K 467.256625 467.6253
+*
+Title:NHS-LC-Biotin (N-term)
+Hidden 
+Nterm:340.169487 340.4609
+*
+Title:NIC (N-term)
+Hidden 
+Nterm:106.029289 106.1020
+*
+Title:NIPCAM (C)
+Residues:C 202.077599 202.2740
+*
+Title:Nitro (W)
+Hidden 
+Residues:W 231.064391 231.2075
+*
+Title:Nitro (Y)
+Hidden 
+Residues:Y 208.048407 208.1709
+*
+Title:Nitrosyl (C)
+Hidden 
+Residues:C 131.999349 132.1411
+*
+Title:Nmethylmaleimide (C)
+Hidden 
+Residues:C 214.041213 214.2416
+*
+Title:Nmethylmaleimide (K)
+Hidden 
+Residues:K 239.126991 239.2710
+*
+Title:Nmethylmaleimide+water (C)
+Hidden 
+Residues:C 232.051778 232.2569
+*
+Title:O-Diethylphosphate (S)
+Hidden 
+Residues:S 223.060959 223.1635
+*
+Title:O-Diethylphosphate (T)
+Hidden 
+Residues:T 237.076610 237.1901
+*
+Title:O-Diethylphosphate (Y)
+Hidden 
+Residues:Y 299.092260 299.2595
+*
+Title:O-Dimethylphosphate (S)
+Hidden 
+Residues:S 195.029659 195.1104
+*
+Title:O-Dimethylphosphate (T)
+Hidden 
+Residues:T 209.045310 209.1370
+*
+Title:O-Dimethylphosphate (Y)
+Hidden 
+Residues:Y 271.060960 271.2064
+*
+Title:O-Ethylphosphate (S)
+Hidden 
+Residues:S 195.029659 195.1104
+*
+Title:O-Ethylphosphate (T)
+Hidden 
+Residues:T 209.045310 209.1370
+*
+Title:O-Ethylphosphate (Y)
+Hidden 
+Residues:Y 271.060960 271.2064
+*
+Title:O-Isopropylmethylphosphonate (S)
+Hidden 
+Residues:S 207.066045 207.1641
+*
+Title:O-Isopropylmethylphosphonate (T)
+Hidden 
+Residues:T 221.081696 221.1907
+*
+Title:O-Isopropylmethylphosphonate (Y)
+Hidden 
+Residues:Y 283.097346 283.2601
+*
+Title:O-Methylphosphate (S)
+Hidden 
+Residues:S 181.014009 181.0838
+*
+Title:O-Methylphosphate (T)
+Hidden 
+Residues:T 195.029660 195.1104
+*
+Title:O-Methylphosphate (Y)
+Hidden 
+Residues:Y 257.045310 257.1798
+*
+Title:O-pinacolylmethylphosphonate (S)
+Hidden 
+Residues:S 249.112995 249.2439
+*
+Title:O-pinacolylmethylphosphonate (T)
+Hidden 
+Residues:T 263.128646 263.2705
+*
+Title:O-pinacolylmethylphosphonate (Y)
+Hidden 
+Residues:Y 325.144296 325.3399
+*
+Title:Octanoyl (S)
+Hidden 
+Residues:S 213.136493 213.2735
+*
+Title:Octanoyl (T)
+Hidden 
+Residues:T 227.152144 227.3001
+*
+Title:OxArgBiotin (R)
+Hidden 
+Residues:R 466.236224 466.5975
+*
+Title:OxArgBiotinRed (R)
+Hidden 
+Residues:R 468.251874 468.6134
+*
+Title:Oxidation (C)
+Hidden 
+Residues:C 119.004100 119.1423
+*
+Title:Oxidation (D)
+Hidden 
+Residues:D 131.021858 131.0868
+*
+Title:Oxidation (F)
+Hidden 
+Residues:F 163.063329 163.1733
+*
+Title:Oxidation (HW)
+Residues:H 153.053827 153.1387
+Residues:W 202.074228 202.2093
+*
+Title:Oxidation (K)
+Hidden 
+Residues:K 144.089878 144.1717
+*
+Title:Oxidation (M)
+NeutralLoss:63.998285 64.1069 0
+NeutralLoss:0.000000 0.0000 0
+Residues:M 147.035400 147.1955
+*
+Title:Oxidation (N)
+Hidden 
+Residues:N 130.037842 130.1020
+*
+Title:Oxidation (P)
+Hidden 
+Residues:P 113.047679 113.1146
+*
+Title:Oxidation (R)
+Hidden 
+Residues:R 172.096026 172.1851
+*
+Title:Oxidation (Y)
+Hidden 
+Residues:Y 179.058244 179.1727
+*
+Title:OxLysBiotin (K)
+Hidden 
+Residues:K 480.251874 480.6241
+*
+Title:OxLysBiotinRed (K)
+Hidden 
+Residues:K 482.267525 482.6399
+*
+Title:OxProBiotin (P)
+Hidden 
+Residues:P 466.236225 466.5975
+*
+Title:OxProBiotinRed (P)
+Hidden 
+Residues:P 468.251875 468.6134
+*
+Title:Palmitoleyl (C)
+Hidden 
+Residues:C 339.223201 339.5358
+*
+Title:Palmitoyl (C)
+Hidden 
+Residues:C 341.238851 341.5517
+*
+Title:Palmitoyl (K)
+Hidden 
+Residues:K 366.324629 366.5811
+*
+Title:Palmitoyl (Protein N-term)
+Hidden 
+ProteinNterm:239.237491 239.4167
+*
+Title:Palmitoyl (S)
+Hidden 
+Residues:S 325.261694 325.4861
+*
+Title:Palmitoyl (T)
+Hidden 
+Residues:T 339.277345 339.5127
+*
+Title:PEO-Iodoacetyl-LC-Biotin (C)
+Hidden 
+Residues:C 517.202876 517.6625
+*
+Title:PET (S)
+Hidden 
+Residues:S 208.067033 208.2801
+*
+Title:PET (T)
+Hidden 
+Residues:T 222.082684 222.3067
+*
+Title:PGA1-biotin (C)
+Hidden 
+Residues:C 763.437627 764.0933
+*
+Title:Phenylisocyanate (N-term)
+Hidden 
+Nterm:120.044939 120.1286
+*
+Title:Phenylisocyanate:2H(5) (N-term)
+Hidden 
+Nterm:125.076323 125.1594
+*
+Title:Phospho (C)
+Hidden 
+Residues:C 182.975516 183.1228
+*
+Title:Phospho (D)
+Hidden 
+Residues:D 194.993274 195.0673
+*
+Title:Phospho (H)
+Hidden 
+Residues:H 217.025243 217.1192
+*
+Title:Phospho (R)
+Hidden 
+Residues:R 236.067442 236.1656
+*
+Title:Phospho (STY)
+NeutralLoss:0.000000 0.0000 0
+NeutralLoss:97.976896 97.9952 0
+Residues:S 166.998359 167.0572
+Residues:T 181.014010 181.0838
+Residues:Y 243.029660 243.1532
+*
+Title:Phosphoadenosine (H)
+Hidden 
+Residues:H 466.111432 466.3452
+*
+Title:Phosphoadenosine (K)
+Hidden 
+Residues:K 457.147483 457.3782
+*
+Title:Phosphoadenosine (T)
+Hidden 
+Residues:T 430.100199 430.3098
+*
+Title:Phosphoadenosine (Y)
+Hidden 
+Residues:Y 492.115849 492.3792
+*
+Title:Phosphoguanosine (H)
+Hidden 
+Residues:H 482.106347 482.3446
+*
+Title:Phosphoguanosine (K)
+Hidden 
+Residues:K 473.142398 473.3776
+*
+Title:PhosphoHex (S)
+Hidden 
+Residues:S 329.051182 329.1978
+*
+Title:PhosphoHexNAc (S)
+Hidden 
+Residues:S 370.077732 370.2497
+*
+Title:Phosphopantetheine (S)
+Hidden 
+Residues:S 427.117822 427.4103
+*
+Title:PhosphoribosyldephosphoCoA (S)
+Hidden 
+Residues:S 968.178932 968.7108
+*
+Title:PhosphoST (C)
+Hidden 
+Residues:C 182.975516 183.1228
+*
+Title:PhosphoST (D)
+Hidden 
+Residues:D 194.993274 195.0673
+*
+Title:PhosphoST (HY)
+Hidden 
+NeutralLoss:0.000000 0.0000 0
+NeutralLoss:0.000000 0.0000 0
+Residues:H 217.025243 217.1192
+Residues:Y 243.029660 243.1532
+*
+Title:PhosphoST (R)
+Hidden 
+Residues:R 236.067442 236.1656
+*
+Title:PhosphoST (ST)
+NeutralLoss:0.000000 0.0000 0
+NeutralLoss:97.976896 97.9952 0
+Residues:S 166.998359 167.0572
+Residues:T 181.014010 181.0838
+*
+Title:PhosphoUridine (H)
+Hidden 
+Residues:H 443.084214 443.3053
+*
+Title:PhosphoUridine (Y)
+Hidden 
+Residues:Y 469.088631 469.3393
+*
+Title:PhosphoY (C)
+Hidden 
+Residues:C 182.975516 183.1228
+*
+Title:PhosphoY (D)
+Hidden 
+Residues:D 194.993274 195.0673
+*
+Title:PhosphoY (H)
+Hidden 
+Residues:H 217.025243 217.1192
+*
+Title:PhosphoY (R)
+Hidden 
+Residues:R 236.067442 236.1656
+*
+Title:PhosphoY (ST)
+Hidden 
+NeutralLoss:0.000000 0.0000 0
+NeutralLoss:97.976896 97.9952 0
+Residues:S 166.998359 167.0572
+Residues:T 181.014010 181.0838
+*
+Title:PhosphoY (Y)
+NeutralLoss:0.000000 0.0000 0
+NeutralLoss:79.966331 79.9799 0
+Residues:Y 243.029660 243.1532
+*
+Title:Phycocyanobilin (C)
+Hidden 
+Residues:C 689.288320 689.8209
+*
+Title:Phycoerythrobilin (C)
+Hidden 
+Residues:C 691.303970 691.8368
+*
+Title:Phytochromobilin (C)
+Hidden 
+Residues:C 687.272670 687.8050
+*
+Title:Piperidine (K)
+Hidden 
+Residues:K 196.157563 196.2893
+*
+Title:Piperidine (N-term)
+Hidden 
+Nterm:69.070425 69.1249
+*
+Title:Pro->pyro-Glu (P)
+Hidden 
+Residues:P 111.032029 111.0987
+*
+Title:Pro->Pyrrolidinone (P)
+Hidden 
+Residues:P 67.042199 67.0892
+*
+Title:Pro->Pyrrolidone (P)
+Hidden 
+Residues:P 69.057849 69.1051
+*
+Title:probiotinhydrazide (P)
+Hidden 
+Residues:P 355.167811 355.4557
+*
+Title:Proline-13C5 (P)
+Residues:P 102.069538 102.0785
+*
+Title:Proline-13C515N1 (P)
+Residues:P 103.066573 103.0719
+*
+Title:Propionamide (C)
+Residues:C 174.046299 174.2208
+*
+Title:Propionamide:2H(3) (C)
+Hidden 
+Residues:C 177.065129 177.2393
+*
+Title:Propionyl (K)
+Hidden 
+Residues:K 184.121178 184.2356
+*
+Title:Propionyl (N-term)
+Hidden 
+Nterm:57.034040 57.0712
+*
+Title:Propionyl:13C(3) (K)
+Hidden 
+Residues:K 187.131242 187.2135
+*
+Title:Propionyl:13C(3) (N-term)
+Hidden 
+Nterm:60.044104 60.0491
+*
+Title:PropylNAGthiazoline (C)
+Hidden 
+Residues:C 335.073539 335.4197
+*
+Title:PyMIC (N-term)
+Hidden 
+Nterm:135.055838 135.1432
+*
+Title:PyridoxalPhosphate (K)
+Hidden 
+Residues:K 357.108972 357.2989
+*
+Title:Pyridylacetyl (K)
+Hidden 
+Residues:K 247.132077 247.2930
+*
+Title:Pyridylacetyl (N-term)
+Hidden 
+Nterm:120.044939 120.1286
+*
+Title:Pyridylethyl (C)
+Residues:C 208.067034 208.2801
+*
+Title:Pyro (N-term C)
+ResiduesNterm:C -16.018724 -16.0226
+*
+Title:Pyro (N-term Q)
+ResiduesNterm:Q -16.018724 -16.0226
+*
+Title:Pyro-carbamidomethyl (N-term C)
+ResiduesNterm:C 41.002740 41.0287
+*
+Title:PyruvicAcidIminyl (K)
+Hidden 
+Residues:K 198.100442 198.2191
+*
+Title:PyruvicAcidIminyl (Protein N-term C)
+Hidden 
+ResiduesProteinNterm:C 71.013304 71.0547
+*
+Title:PyruvicAcidIminyl (Protein N-term V)
+Hidden 
+ResiduesProteinNterm:V 71.013304 71.0547
+*
+Title:QAT (C)
+Hidden 
+Residues:C 273.151098 273.3949
+*
+Title:QAT:2H(3) (C)
+Hidden 
+Residues:C 277.177754 277.4213
+*
+Title:Quinone (W)
+Hidden 
+Residues:W 216.053492 216.1928
+*
+Title:Quinone (Y)
+Hidden 
+Residues:Y 193.037508 193.1562
+*
+Title:Retinylidene (K)
+Hidden 
+Residues:K 394.298414 394.5927
+*
+Title:Ser->LacticAcid (Protein N-term S)
+Hidden 
+ResiduesProteinNterm:S -14.003074 -14.0067
+*
+Title:SMA (K)
+Hidden 
+Residues:K 255.158292 255.3135
+*
+Title:SMA (N-term)
+Hidden 
+Nterm:128.071154 128.1491
+*
+Title:SPITC (K)
+Hidden 
+Residues:K 343.066047 343.4218
+*
+Title:SPITC (N-term)
+Hidden 
+Nterm:215.978909 216.2574
+*
+Title:SPITC:13C(6) (K)
+Hidden 
+Residues:K 349.086176 349.3777
+*
+Title:SPITC:13C(6) (N-term)
+Hidden 
+Nterm:221.999038 222.2133
+*
+Title:Succinyl (K)
+Hidden 
+Residues:K 228.111007 228.2451
+*
+Title:Succinyl (N-term)
+Hidden 
+Nterm:101.023869 101.0807
+*
+Title:Succinyl (Protein N-term)
+Hidden 
+ProteinNterm:101.023869 101.0807
+*
+Title:Succinyl:13C(4) (K)
+Hidden 
+Residues:K 232.124426 232.2157
+*
+Title:Succinyl:13C(4) (N-term)
+Hidden 
+Nterm:105.037288 105.0513
+*
+Title:Succinyl:2H(4) (K)
+Hidden 
+Residues:K 232.136114 232.2697
+*
+Title:Succinyl:2H(4) (N-term)
+Hidden 
+Nterm:105.048976 105.1053
+*
+Title:SulfanilicAcid (C-term)
+Hidden 
+Cterm:172.006839 172.1817
+*
+Title:SulfanilicAcid (D)
+Hidden 
+Residues:D 270.031042 270.2618
+*
+Title:SulfanilicAcid (E)
+Hidden 
+Residues:E 284.046692 284.2884
+*
+Title:SulfanilicAcid:13C(6) (C-term)
+Hidden 
+Cterm:178.026968 178.1376
+*
+Title:SulfanilicAcid:13C(6) (D)
+Hidden 
+Residues:D 276.051171 276.2177
+*
+Title:SulfanilicAcid:13C(6) (E)
+Hidden 
+Residues:E 290.066821 290.2443
+*
+Title:Sulfide (C)
+Hidden 
+Residues:C 134.981256 135.2079
+*
+Title:Sulfo (C)
+Hidden 
+Residues:C 182.966000 183.2061
+*
+Title:Sulfo (S)
+Residues:S 166.988843 167.1405
+*
+Title:Sulfo (T)
+Residues:T 181.004494 181.1671
+*
+Title:Sulfo (Y)
+Residues:Y 243.020144 243.2365
+*
+Title:Sulfo-NHS-LC-LC-Biotin (K)
+Hidden 
+Residues:K 580.340689 580.7829
+*
+Title:Sulfo-NHS-LC-LC-Biotin (N-term)
+Hidden 
+Nterm:453.253551 453.6185
+*
+Title:Sumo1 (K)
+Residues:K 2392.110422 2393.5789
+*
+Title:Sumo1ox (K)
+Residues:K 2408.105336 2409.5783
+*
+Title:Sumo2 (K)
+Residues:K 4108.896019 4111.3713
+*
+Title:Sumo2ox (K)
+Residues:K 4124.890934 4127.3707
+*
+Title:SUMO_Q89R (K)
+Residues:K 343.185569 343.3788
+*
+Title:SUMO_QQQTGG (K)
+Residues:K 727.361302 727.7665
+*
+Title:SUMO_QTGG (K)
+Residues:K 471.244147 471.5080
+*
+Title:Thioacyl (K)
+Hidden 
+Residues:K 216.093248 216.3006
+*
+Title:Thioacyl (N-term)
+Hidden 
+Nterm:89.006110 89.1362
+*
+Title:Thiophos-S-S-biotin (S)
+Hidden 
+NeutralLoss:525.142894 525.6658 0
+Residues:S 612.174922 612.7431
+*
+Title:Thiophos-S-S-biotin (T)
+Hidden 
+NeutralLoss:525.142894 525.6658 0
+Residues:T 626.190573 626.7697
+*
+Title:Thiophos-S-S-biotin (Y)
+Hidden 
+NeutralLoss:525.142894 525.6658 0
+Residues:Y 688.206223 688.8391
+*
+Title:Thiophospho (STY)
+NeutralLoss:0.000000 0.0000 0
+Residues:S 182.975515 183.1228
+Residues:T 196.991166 197.1494
+Residues:Y 259.006816 259.2188
+*
+Title:Thrbiotinhydrazide (T)
+Hidden 
+Residues:T 341.152161 341.4291
+*
+Title:Thyroxine (Y)
+Hidden 
+Residues:Y 758.676136 758.8548
+*
+Title:TMAB (K)
+Hidden 
+NeutralLoss:59.073499 59.1103 0
+Residues:K 256.202502 256.3645
+*
+Title:TMAB (N-term)
+Hidden 
+NeutralLoss:59.073499 59.1103 0
+Nterm:129.115364 129.2001
+*
+Title:TMAB:2H(9) (K)
+Hidden 
+NeutralLoss:68.129990 68.1657 0
+Residues:K 265.258993 265.4199
+*
+Title:TMAB:2H(9) (N-term)
+Hidden 
+NeutralLoss:68.129990 68.1657 0
+Nterm:138.171855 138.2555
+*
+Title:TMT (K)
+Residues:K 352.247441 352.4717
+*
+Title:TMT (N-term)
+Nterm:225.160303 225.3073
+*
+Title:TMT2plex (K)
+Residues:K 353.250796 353.4644
+*
+Title:TMT2plex (N-term)
+Nterm:226.163658 226.3000
+*
+Title:TMT6plex (K)
+Residues:K 357.257895 357.4357
+*
+Title:TMT6plex (N-term)
+Nterm:230.170757 230.2713
+*
+Title:Triiodo (Y)
+Hidden 
+Residues:Y 540.753273 540.8629
+*
+Title:Triiodothyronine (Y)
+Hidden 
+Residues:Y 632.779488 632.9583
+*
+Title:Trimethyl (K)
+Hidden 
+Residues:K 170.141913 170.2520
+*
+Title:Trimethyl (Protein N-term A)
+Hidden 
+ResiduesProteinNterm:A 43.054775 43.0876
+*
+Title:Trimethyl (R)
+Hidden 
+Residues:R 198.148061 198.2654
+*
+Title:TriMethyl0 (KR)
+Residues:K 170.141913 170.2520
+Residues:R 198.148061 198.2654
+*
+Title:Trioxidation (C)
+Hidden 
+Residues:C 150.993929 151.1411
+*
+Title:Tripalmitate (Protein N-term C)
+Hidden 
+ResiduesProteinNterm:C 789.733602 790.3128
+*
+Title:Trp->Hydroxykynurenin (W)
+Hidden 
+Residues:W 206.069142 206.1980
+*
+Title:Trp->Kynurenin (W)
+Hidden 
+Residues:W 190.074228 190.1986
+*
+Title:Trp->Oxolactone (W)
+Hidden 
+Residues:W 200.058578 200.1934
+*
+Title:Tyr->Dha (Y)
+Hidden 
+Residues:Y 69.021464 69.0621
+*
+Title:Xlink:B10621 (C)
+Hidden 
+Residues:C 816.102264 816.7055
+*
+Title:Xlink:DMP (K)
+Hidden 
+Residues:K 250.179361 250.3400
+*
+Title:Xlink:DMP (Protein N-term)
+Hidden 
+ProteinNterm:123.092223 123.1756
+*
+Title:Xlink:DMP-s (K)
+Hidden 
+Residues:K 282.205576 282.3819
+*
+Title:Xlink:DMP-s (Protein N-term)
+Hidden 
+ProteinNterm:155.118438 155.2175
+*
+Title:Xlink:SSD (K)
+Hidden 
+Residues:K 381.189986 381.4235
+*
